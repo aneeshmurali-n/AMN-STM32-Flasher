@@ -18,29 +18,36 @@ Install firmware to your STM32 devices as easily as installing a regular applica
 
 ---
 
+
 ## Installation
 
 1. **Download the latest release** from this repository.  
-2. Ensure the following structure:  
+2. Ensure the following structure:
+  ##### Folder Structure 
+```text
 AMN_STM32_Flasher/
 ├─ bin/
-│ ├─ firmware.bin # Your .bin firmware file
-│ └─ settings.json # Configuration file
+│  ├─ firmware.bin       # Your .bin firmware file
+│  └─ settings.json      # Configuration file
 └─ AMN STM32 Flasher.exe # Compiled executable
+```
+
 3. Double-click `AMN STM32 Flasher.exe` to launch.
    
-> ⚠️ Make sure your `.bin` firmware is in the `bin` folder, and `ST-LINK_CLI.exe` is installed on your computer.  
-> It comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**.  
-> If you already have one of these installed, you’re ready to go.
+- ⚠️ Make sure your `.bin` firmware is in the `bin` folder, and `ST-LINK_CLI.exe` is installed on your computer.
+- It comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**.
+- If you already have one of these installed, you’re ready to go.
+
 
 ---
+
 
 ## Usage
 
 1. Launch **AMN STM32 Flasher**.  
 2. The app will automatically detect `.bin` firmware files in the `bin` folder.  
 3. If `ST-LINK_CLI.exe` is found, the **Install** button will be enabled.  
-4. Optionally, check **Enable Firmware Protection** to enable RDP1 protection.  
+4. Optionally, check or uncheck **Enable Firmware Protection** to enable or disable RDP1 protection.  
 5. Click **Install** to flash the firmware to your STM32 device.  
 6. Monitor the **progress bar** and **status messages** for real-time feedback.
 
@@ -61,16 +68,20 @@ Example:
 
 ## Requirements
 
-### App
+### For the App (Executable)
 
-- Windows 10/11  
-- `ST-LINK_CLI.exe` must be present on your system (from STMicroelectronics, comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**; not included in this repo due to licensing)
+- Windows 10 or 11  
+- `ST-LINK_CLI.exe` must be installed on your system.  
+  ⚠️ You do **not** need to copy or bundle it in the app directory.  
+  If you have installed **STM32CubeProgrammer**, **ST-LINK Utility**, or an **Arduino STM32 core**, the app will automatically detect it.  
+  ⚠️ Not included in this repository due to licensing restrictions.
 
-### If running from source
+### If Running from Source
 
-- Python 3.12.5  
-- Packages:  
-  - `customtkinter==5.2.2`
+- Python 3.12.5 or higher  
+- Required Python packages:  
+  - `customtkinter==5.2.2`  # For the user interface
+
 
 ---
 
