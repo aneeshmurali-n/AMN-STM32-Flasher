@@ -54,7 +54,7 @@ Example:
 {
   "FLASH_START_ADDR": "0x08000000"
 }
-
+```
 - FLASH_START_ADDR – Flash start address (usually 0x08000000 for STM32). You can change this according to your requirements.
 
 ---
