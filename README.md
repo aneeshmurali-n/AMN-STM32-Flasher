@@ -27,7 +27,8 @@ AMN_STM32_Flasher/
 │ ├─ firmware.bin # Your .bin firmware file
 │ └─ settings.json # Configuration file
 └─ AMN STM32 Flasher.exe # Compiled executable
-3. Double-click `AMN_STM32_Flasher.exe` to launch.  
+3. Double-click `AMN STM32 Flasher.exe` to launch.
+   
 > ⚠️ Make sure your `.bin` firmware is in the `bin` folder, and `ST-LINK_CLI.exe` is installed on your computer.  
 > It comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**.  
 > If you already have one of these installed, you’re ready to go.
@@ -53,41 +54,44 @@ Example:
 {
   "FLASH_START_ADDR": "0x08000000"
 }
-```
+
 - FLASH_START_ADDR – Flash start address (usually 0x08000000 for STM32). You can change this according to your requirements.
 
 ---
 
-# Requirements
-  ## App
-  - Windows 10/11
-  - ST-LINK_CLI.exe must present in your syatem (from STMicroelectronics, comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**.  not included in this repo due to licensing)
-  ## if running from source:
-  - Python packages 
-    customtkinter==5.2.2
-    python = 3.12.5
+## Requirements
 
+### App
 
-# License
+- Windows 10/11  
+- `ST-LINK_CLI.exe` must be present on your system (from STMicroelectronics, comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**; not included in this repo due to licensing)
 
-This project is licensed under the MIT License. See LICENSE
-for details.
+### If running from source
 
-**Note:** ST-LINK_CLI.exe is not redistributable. Users must obtain it from STMicroelectronics separately.    
+- Python 3.12.5  
+- Packages:  
+  - `customtkinter==5.2.2`
 
+---
 
-# Credits
+## License
 
-- **Aneesh Murali Nariyampully** – Original author & developer
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
-- **CustomTkinter** – MIT License
+**Note:** `ST-LINK_CLI.exe` is **not redistributable**. Users must obtain it from STMicroelectronics separately.
 
-- **STMicroelectronics** – ST-LINK_CLI.exe (used as a dependency, see licensing notes)
+---
 
-# Disclaimer
+## Credits
 
-- Use at your own risk.
+- **Aneesh Murali Nariyampully** – Original author & developer  
+- **CustomTkinter** – MIT License  
+- **STMicroelectronics** – `ST-LINK_CLI.exe` (used as a dependency, see licensing notes)  
 
-- Always verify the correct firmware and flash settings before proceeding.
+---
 
+## Disclaimer
+
+- Use at your own risk.  
+- Always verify the correct firmware and flash settings before proceeding.  
 - The software is provided “as-is” with no warranty.
