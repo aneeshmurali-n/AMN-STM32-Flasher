@@ -71,16 +71,21 @@ Example:
 ### For the App (Executable)
 
 - Windows 10 or 11  
-- `ST-LINK_CLI.exe` must be installed on your system.  
-  ⚠️ You do **not** need to copy or bundle it in the app directory.  
-  If you have installed **STM32CubeProgrammer**, **ST-LINK Utility**, or an **Arduino STM32 core**, the app will automatically detect it.  
-  ⚠️ Not included in this repository due to licensing restrictions.
+- **ST-LINK_CLI Requirement:** This software requires `ST-LINK_CLI.exe` from **official STMicroelectronics sources**.  
+- Users must **obtain and install it separately** via one of the official packages:  
+  - ST-LINK Utility  
+  - Arduino STM32 cores that include it  
+
+⚠️ **Important:** This repository **does not include `ST-LINK_CLI.exe`**.  
+Do **not** redistribute it with this app. The software will detect an existing installation on your system and use it automatically.  
+
+**Note:** Your firmware flashing will only work if `ST-LINK_CLI.exe` is present somewhere on your computer. If users copy it into the app folder, that is **their responsibility**, not the developer’s.
 
 ### If Running from Source
 
 - Python 3.12.5 or higher  
 - Required Python packages:  
-  - `customtkinter==5.2.2`  # For the user interface
+  - `customtkinter==5.2.2`  # For the user interface  
 
 
 ---
@@ -89,20 +94,20 @@ Example:
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
-**Note:** `ST-LINK_CLI.exe` is **not redistributable**. Users must obtain it from STMicroelectronics separately.
 
 ---
 
 ## Credits
 
 - **Aneesh Murali Nariyampully** – Original author & developer  
-- **CustomTkinter** – MIT License  
+- **CustomTkinter**  – MIT License (by Tom Schimansky)
 - **STMicroelectronics** – `ST-LINK_CLI.exe` (used as a dependency, see licensing notes)  
 
 ---
 
 ## Disclaimer
 
-- Use at your own risk.  
-- Always verify the correct firmware and flash settings before proceeding.  
-- The software is provided “as-is” with no warranty.
+- This software is provided “as-is” with **no warranty**.  
+- The developer is **not responsible** for any firmware, hardware, or software issues caused by misuse, improper flashing, or license violations.  
+- Users must comply with STMicroelectronics’ licensing terms if they use `ST-LINK_CLI.exe`.  
+- Using this app assumes that the user understands and accepts all risks related to flashing STM32 devices.
