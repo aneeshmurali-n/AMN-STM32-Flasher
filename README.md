@@ -1,8 +1,15 @@
 # AMN-STM32-Flasher
 
 **AMN STM32 Flasher** is a one-click firmware flasher for STM32 microcontrollers.  
-It allows you to create a firmware installer for your STM32 projects with a user-friendly interface, automatic `.bin` file detection, and optional firmware protection (RDP1).  
-Install firmware to your STM32 devices as easily as installing a regular application.
+This app makes flashing STM32 microcontrollers **as easy as installing a regular application**. Simply place the compiled `.bin` firmware in the `bin` folder, share the app, and your users can:  
+
+1. Connect their MCU to a PC.  
+2. Run the app.  
+3. Click **Install**.  
+
+The firmware is automatically burned onto the chip — no source code, no code editor, no complex setup required.  
+
+This tool is perfect for **beginners and non-experienced users**, allowing anyone to try out STM32 projects **without compiling code or setting up development environments**.  
 
 ---
 
