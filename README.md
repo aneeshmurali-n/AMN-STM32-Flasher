@@ -25,18 +25,6 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 ---
 
-## Important Notice
-
-⚠️ **ST-LINK_CLI.exe is not included** due to ST’s licensing restrictions.  
-
-- You **do not need to copy or redistribute** it. The app will automatically detect `ST-LINK_CLI.exe` if it’s installed on your system.  
-- Copying `ST-LINK_CLI.exe` into the app folder **may violate ST’s license**. This is **your responsibility**, not the developer’s.  
-- Make sure one of the supported ST programs is installed on your system (ST-LINK Utility, STM32F1xx board support via Arduino/STM32duino core).  
-
-The app is designed to work without copying files, so **please follow ST’s license**.  
-
----
-
 ## How It Works
 
 1. Place the `.bin` firmware in the `bin` folder.  
@@ -51,12 +39,28 @@ You can also share this app along with your `.bin` firmware file placed in the `
 
 ---
 
-## Why Use This App?
 
-- Perfect for beginners who don’t want to deal with code editors or compilation.  
-- Saves time for experienced embedded engineers with fully automated flashing.  
-- Makes STM32 projects **accessible and easy to try** for anyone watching tutorials or using shared firmware packages.
+## Dependencies & Licensing
 
+- `ST-LINK_CLI.exe` from **STMicroelectronics** is required to flash STM32 devices.  
+  - The app **does not include or redistribute** this executable, it must be installed on your system.  
+  - See **Important Notice** below for licensing information.
+
+---
+
+## Important Notice
+
+⚠️ **ST-LINK_CLI.exe is not included** due to ST’s licensing restrictions.  
+
+- You **do not need to copy or redistribute** it. The app will detect it automatically if installed.  
+- Copying `ST-LINK_CLI.exe` into the app folder **may violate ST’s license**. This is **your responsibility**, not the developer’s.  
+- Ensure that one of the supported ST programs is installed:  
+  - ST-LINK Utility  
+  - Arduino STM32 cores (STM32F1xx/GD32F1xx boards by stm32duino)  
+
+The app is designed to work without copying files, so **please comply with ST’s license**.
+
+---
 
 ## Configuration (`bin/settings.json`)
 
@@ -71,28 +75,15 @@ Example:
 
 ---
 
+
 ## Requirements
 
-### For the App (Executable)
+### Running the Executable
 
 - Windows 10 or 11  
-- **ST-LINK_CLI Requirement:** This software requires `ST-LINK_CLI.exe` from **official STMicroelectronics sources**.  
-- Users must **obtain and install it separately** via one of the official packages:  
-  - ST-LINK Utility  
-  - Arduino STM32 cores that include it  
+- Installed ST-LINK_CLI.exe (via ST-LINK Utility or STM32 Arduino cores)
 
-⚠️ **Important:** This repository **does not include `ST-LINK_CLI.exe`** due to **ST’s licensing restrictions**.  
-You **do not need to copy or redistribute it**. The app will automatically detect `ST-LINK_CLI.exe` on your system and use it if it’s available, just like a person would. Make sure you have any of the ST programs installed (ST-LINK Utility, STM32F1xx board support via Arduino/STM32duino core).  
-
-**Note:**  
-- Do **not** copy `ST-LINK_CLI.exe` into the app folder. Doing so may **violate ST’s license**.  
-- This is **your responsibility**, not the developer’s.  
-- The app will automatically detect `ST-LINK_CLI.exe` if it’s installed on your system, so copying it is **not required**.  
-- The author **recommends following ST’s license** and not redistributing the file.
-
-
-
-### If Running from Source
+### Running from Source
 
 - Python 3.12.5 or higher  
 - Required Python packages:  
@@ -101,18 +92,24 @@ You **do not need to copy or redistribute it**. The app will automatically detec
 
 ---
 
-## License
+## Why Use This App?
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
-
-
+- Perfect for beginners who don’t want to deal with code editors or compilation.  
+- Saves time for experienced embedded engineers with fully automated flashing.  
+- Makes STM32 projects **accessible and easy to try** for anyone watching tutorials or using shared firmware packages.
+  
 ---
 
 ## Credits
 
 - **Aneesh Murali Nariyampully** – Original author & developer  
-- **CustomTkinter**  – MIT License (by Tom Schimansky)
-- **STMicroelectronics** – `ST-LINK_CLI.exe` (used as a dependency, see licensing notes)  
+- **CustomTkinter** – MIT License (by Tom Schimansky)  
+- **STMicroelectronics** – ST-LINK_CLI.exe (used as a dependency, see Important Notice)
+---
+
+## License
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
 ---
 
@@ -122,3 +119,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 - The developer is **not responsible** for any firmware, hardware, or software issues caused by misuse, improper flashing, or license violations.  
 - Users must comply with STMicroelectronics’ licensing terms if they use `ST-LINK_CLI.exe`.  
 - Using this app assumes that the user understands and accepts all risks related to flashing STM32 devices.
+
+---
+  
