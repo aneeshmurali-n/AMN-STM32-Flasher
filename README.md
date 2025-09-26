@@ -40,9 +40,10 @@ The app is designed to work without copying files, so **please follow ST’s lic
 ## How It Works
 
 1. Place the `.bin` firmware in the `bin` folder.  
-2. Connect your STM32 MCU to your PC via **ST-Link V2**.  
-3. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
-4. Run the app and click **Install**.  
+2. Connect your STM32 MCU to your PC via **ST-Link V2**.
+3. Run the app.
+4. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
+5. Click **Install**.  
 
 **The firmware will be flashed automatically, with real-time progress updates displayed during the process.  
 You can also share this app along with your `.bin` firmware file placed in the `bin` folder. It now works like a **package installer**, allowing someone else to flash the MCU and try the project with just one click.**
