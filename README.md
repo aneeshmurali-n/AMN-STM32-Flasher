@@ -17,11 +17,11 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 - **Easy Firmware Flashing** – Install firmware as easily as a standard application.  
 - **One-Click Flash** – Flash your device with a single click.  
-- **Automatic Firmware Detection** – Automatically detects `.bin` firmware files in the `bin` folder.  
-- **ST-LINK_CLI Automatic Detection** – Automatically finds and uses `ST-LINK_CLI.exe` installed on your system.  
+- **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.
+- **ST-LINK_CLI Automatic Detection** – Detects and uses `ST-LINK_CLI.exe` installed on your system.  
 - **Modern Dark UI** – Sleek dark mode interface with a purple-green theme.  
-- **Optional Firmware Protection** – Enable or disable read protection (RDP1) to lock the microcontroller.  
-- **Smooth Progress Feedback** – Real-time progress bar and status messages for every step.
+- **Optional Firmware Protection** – Enable/disable read protection (RDP1).  
+- **Smooth Progress Feedback** – Real-time progress bar and status updates.
 
 ---
 
@@ -33,9 +33,8 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 4. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
 5. Click **Install**.  
 
-**The firmware will be flashed automatically, with real-time progress updates displayed during the process.  
-You can also share this app along with your `.bin` firmware file placed in the `bin` folder. It now works like a **package installer**, allowing someone else to flash the MCU and try the project with just one click.**
-
+The firmware will be flashed automatically with **real-time progress updates**.  
+You can also share this app along with your `.bin` file in the `bin` folder. It works like a **package installer**, allowing someone else to flash the MCU with **just one click**.
 
 ---
 
@@ -71,7 +70,7 @@ Example:
   "FLASH_START_ADDR": "0x08000000"
 }
 ```
-- FLASH_START_ADDR – Flash start address (usually 0x08000000 for STM32). You can change this according to your requirements.
+- FLASH_START_ADDR – Flash start address (usually 0x08000000 for STM32). Adjust as needed.
 
 ---
 
@@ -87,16 +86,17 @@ Example:
 
 - Python 3.12.5 or higher  
 - Required Python packages:  
-  - `customtkinter==5.2.2`  # For the user interface  
+  - `customtkinter==5.2.2` 
 
 
 ---
 
 ## Why Use This App?
 
+- Turn your firmware into a **sharable installer** for easy distribution.  
 - Perfect for beginners who don’t want to deal with code editors or compilation.  
 - Saves time for experienced embedded engineers with fully automated flashing.  
-- Makes STM32 projects **accessible and easy to try** for anyone watching tutorials or using shared firmware packages.
+- Makes STM32 projects **accessible and easy to try** for anyone following tutorials or using shared firmware packages.
   
 ---
 
@@ -121,4 +121,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 - Using this app assumes that the user understands and accepts all risks related to flashing STM32 devices.
 
 ---
+
+## Screenshots
   
