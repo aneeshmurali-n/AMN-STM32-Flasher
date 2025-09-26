@@ -9,7 +9,7 @@ This app makes flashing STM32 microcontrollers **as easy as installing a regular
 
 The firmware is automatically burned onto the chip — no source code, no code editor, no complex setup required.  
 
-This tool is perfect for **beginners and non-experienced users**, allowing anyone to try out STM32 projects **without compiling code or setting up development environments**.  
+This tool is perfect for **beginners and non-experienced users**, allowing anyone to try out STM32 projects **without compiling code or setting up development environments**. It also **saves time for experienced embedded system engineers**, as everything is fully automated.
 
 ---
 
