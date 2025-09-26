@@ -1,13 +1,13 @@
-# AMN-STM32-Flasher
+# AMN STM32 Flasher
 
 **AMN STM32 Flasher** is a one-click firmware flasher for STM32 microcontrollers.  
-This app makes flashing STM32 microcontrollers **as easy as installing a regular application**. Simply place the compiled `.bin` firmware in the `bin` folder, share the app, and your users can:  
+It makes flashing STM32 devices **as easy as installing a regular application**. Simply place the compiled `.bin` firmware in the `bin` folder, share the app, and your users can:
 
 1. Connect their MCU to a PC.  
 2. Run the app.  
 3. Click **Install**.  
 
-The firmware is automatically burned onto the chip — no source code, no code editor, no complex setup required.  
+The firmware is automatically burned onto the chip — no source code, no code editor, and no complex setup required.  
 
 This tool is perfect for **beginners and non-experienced users**, allowing anyone to try out STM32 projects **without compiling code or setting up development environments**. It also **saves time for experienced embedded system engineers**, as everything is fully automated.
 
@@ -15,50 +15,47 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 ## Features
 
-- **Easy Firmware Flashing** – Install firmware like a standard application.  
-- **One-Click Automation** – Flash your device with a single button click.  
-- **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.  
-- **ST-LINK Detection** – Searches for `ST-LINK_CLI.exe` in common system locations.  
+- **Easy Firmware Flashing** – Install firmware as easily as a standard application.  
+- **One-Click Flash** – Flash your device with a single click.  
+- **Automatic Firmware Detection** – Automatically detects `.bin` firmware files in the `bin` folder.  
+- **ST-LINK_CLI Automatic Detection** – Automatically finds and uses `ST-LINK_CLI.exe` installed on your system.  
 - **Modern Dark UI** – Sleek dark mode interface with a purple-green theme.  
-- **Optional Firmware Protection** – Enable or disable read protection (RDP1).  
-- **Smooth Progress Feedback** – Real-time progress bar and status messages for every step.  
+- **Optional Firmware Protection** – Enable or disable read protection (RDP1) to lock the microcontroller.  
+- **Smooth Progress Feedback** – Real-time progress bar and status messages for every step.
 
 ---
 
+## Important Notice
 
-## Installation
+⚠️ **ST-LINK_CLI.exe is not included** due to ST’s licensing restrictions.  
 
-1. **Download the latest release** from this repository.  
-2. Ensure the following structure:
-  ##### Folder Structure 
-```text
-AMN_STM32_Flasher/
-├─ bin/
-│  ├─ firmware.bin       # Your .bin firmware file
-│  └─ settings.json      # Configuration file
-└─ AMN STM32 Flasher.exe # Compiled executable
-```
+- You **do not need to copy or redistribute** it. The app will automatically detect `ST-LINK_CLI.exe` if it’s installed on your system.  
+- Copying `ST-LINK_CLI.exe` into the app folder **may violate ST’s license**. This is **your responsibility**, not the developer’s.  
+- Make sure one of the supported ST programs is installed on your system (ST-LINK Utility, STM32F1xx board support via Arduino/STM32duino core).  
 
-3. Double-click `AMN STM32 Flasher.exe` to launch.
-   
-- ⚠️ Make sure your `.bin` firmware is in the `bin` folder, and `ST-LINK_CLI.exe` is installed on your computer.
-- It comes with **ST-LINK Utility**, or some **Arduino STM32 cores**.
-- If you already have one of these installed, you’re ready to go.
+The app is designed to work without copying files, so **please follow ST’s license**.  
+
+---
+
+## How It Works
+
+1. Place the `.bin` firmware in the `bin` folder.  
+2. Connect your STM32 MCU to your PC via **ST-Link V2**.  
+3. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
+4. Run the app and click **Install**.  
+
+**The firmware will be flashed automatically, with real-time progress updates displayed during the process.  
+You can also share this app along with your `.bin` firmware file placed in the `bin` folder. It now works like a **package installer**, allowing someone else to flash the MCU and try the project with just one click.**
 
 
 ---
 
+## Why Use This App?
 
-## Usage
+- Perfect for beginners who don’t want to deal with code editors or compilation.  
+- Saves time for experienced embedded engineers with fully automated flashing.  
+- Makes STM32 projects **accessible and easy to try** for anyone watching tutorials or using shared firmware packages.
 
-1. Launch **AMN STM32 Flasher**.  
-2. The app will automatically detect `.bin` firmware files in the `bin` folder.  
-3. If `ST-LINK_CLI.exe` is found, the **Install** button will be enabled.  
-4. Optionally, check or uncheck **Enable Firmware Protection** to enable or disable RDP1 protection.  
-5. Click **Install** to flash the firmware to your STM32 device.  
-6. Monitor the **progress bar** and **status messages** for real-time feedback.
-
----
 
 ## Configuration (`bin/settings.json`)
 
