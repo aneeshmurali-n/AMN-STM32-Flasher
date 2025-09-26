@@ -35,7 +35,7 @@ AMN_STM32_Flasher/
 3. Double-click `AMN STM32 Flasher.exe` to launch.
    
 - ⚠️ Make sure your `.bin` firmware is in the `bin` folder, and `ST-LINK_CLI.exe` is installed on your computer.
-- It comes with **STM32CubeProgrammer**, **ST-LINK Utility**, or some **Arduino STM32 cores**.
+- It comes with **ST-LINK Utility**, or some **Arduino STM32 cores**.
 - If you already have one of these installed, you’re ready to go.
 
 
@@ -76,10 +76,16 @@ Example:
   - ST-LINK Utility  
   - Arduino STM32 cores that include it  
 
-⚠️ **Important:** This repository **does not include `ST-LINK_CLI.exe`**.  
-Do **not** redistribute it with this app. The software will detect an existing installation on your system and use it automatically.  
+⚠️ **Important:** This repository **does not include `ST-LINK_CLI.exe`** due to **ST’s licensing restrictions**.  
+You **do not need to copy or redistribute it**. The app will automatically detect `ST-LINK_CLI.exe` on your system and use it if it’s available, just like a person would. Make sure you have any of the ST programs installed (ST-LINK Utility, STM32F1xx board support via Arduino/STM32duino core).  
 
-**Note:** Your firmware flashing will only work if `ST-LINK_CLI.exe` is present somewhere on your computer. If users copy it into the app folder, that is **their responsibility**, not the developer’s.
+**Note:**  
+- Do **not** copy `ST-LINK_CLI.exe` into the app folder. Doing so may **violate ST’s license**.  
+- This is **your responsibility**, not the developer’s.  
+- The app will automatically detect `ST-LINK_CLI.exe` if it’s installed on your system, so copying it is **not required**.  
+- The author **recommends following ST’s license** and not redistributing the file.
+
+
 
 ### If Running from Source
 
