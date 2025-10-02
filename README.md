@@ -49,9 +49,8 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 2. Browse your firmware file.
 
-<img width="1220" height="506" alt="Screenshot 2025-10-02 233123" src="https://github.com/user-attachments/assets/5ed47b5a-6c7a-4794-b499-614e7e2460b9" />
+<img width="756" height="370" alt="Screenshot 2025-10-02 233142" src="https://github.com/user-attachments/assets/d2515af3-14f4-4cf8-ae88-6f44462a25ba" />
 
-    
 4. Connect your STM32 MCU to your PC via **ST-Link V2**.
 5. Run the app.
 6. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
