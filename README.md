@@ -33,7 +33,7 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 | `D` / `Delete` | 🗑️ Delete added firmware file            |
 | `C`            | 📦 Create firmware installer             |
 | `I` / `Enter`  | ⚡ Flash firmware                        |
-| `A`            | ➕ Add firmware file                     |
+| `A` / `Enter`  | ➕ Add firmware file                     |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1) |
 
 
