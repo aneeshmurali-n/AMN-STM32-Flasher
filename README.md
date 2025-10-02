@@ -15,15 +15,27 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 ---
 
-## Features
-
+## ✨ Features
 - **Easy Firmware Flashing** – Install firmware as easily as a standard application.  
 - **One-Click Flash** – Flash your device with a single click.  
-- **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.
+- **Create Firmware Installer** – Package your firmware as a single-click installer.  
+- **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.  
 - **ST-LINK_CLI Automatic Detection** – Detects and uses `ST-LINK_CLI.exe` installed on your system.  
 - **Modern Dark UI** – Sleek dark mode interface with a purple-green theme.  
 - **Optional Firmware Protection** – Enable/disable read protection (RDP1).  
-- **Smooth Progress Feedback** – Real-time progress bar and status updates.
+- **Smooth Progress Feedback** – Real-time progress bar and status updates.  
+- **Keyboard Shortcuts** – Quickly access key functions without using the mouse.  
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut       | Action                                   |
+|----------------|------------------------------------------|
+| `D` / `Delete` | 🗑️ Delete added firmware file            |
+| `C`            | 📦 Create firmware installer             |
+| `I` / `Enter`  | ⚡ Flash firmware                        |
+| `A`            | ➕ Add firmware file                     |
+| `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1) |
+
 
 ---
 
