@@ -1,0 +1,20 @@
+AMN STM32 Flasher – NOTICE
+
+Copyright (c) 2025 Aneesh Murali Nariyampully
+
+This project is licensed under the MIT License. See LICENSE file for details.
+
+Third-party libraries used:
+
+1. customtkinter==5.2.2
+   - MIT License
+   - https://github.com/TomSchimansky/CustomTkinter
+
+Notes:
+
+- ST-LINK_CLI.exe is NOT included in this repository.
+  Users must download it from STMicroelectronics:
+  https://www.st.com/en/development-tools/stsw-link004.html
+  Redistribution of ST-LINK_CLI.exe without explicit permission from ST is prohibited.
+
+- Firmware `.bin` files should be placed in the `bin/` folder by the user.
