@@ -1,4 +1,6 @@
 # AMN STM32 Flasher
+<img width="1430" height="804" alt="Screenshot 2025-09-30 113920" src="https://github.com/user-attachments/assets/d3842c1b-5507-42d2-adef-f06dcb1d752e" />
+
 
 **AMN STM32 Flasher** is a one-click firmware flasher for STM32 microcontrollers.  
 It makes flashing STM32 devices **as easy as installing a regular application**. Simply place the compiled `.bin` firmware in the `bin` folder, share the app, and your users can:
@@ -123,4 +125,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 ---
 
 ## Screenshots
+
+
   
