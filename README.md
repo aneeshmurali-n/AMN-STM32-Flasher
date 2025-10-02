@@ -43,11 +43,19 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 
 <img width="755" height="389" alt="Screenshot 2025-10-02 233050" src="https://github.com/user-attachments/assets/383ebed1-d129-4bfb-8916-8acf0879dec0" />
 
-1. Place the `.bin` firmware in the `bin` folder.   
-2. Connect your STM32 MCU to your PC via **ST-Link V2**.
-3. Run the app.
-4. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
-5. Click **Install**.  
+1. Click Add Firmware or press `A` on key board to add the `.bin` firmware in the `bin` folder.
+
+<img width="1220" height="506" alt="Screenshot 2025-10-02 233123" src="https://github.com/user-attachments/assets/0a410f1e-960d-4f8a-9d92-1f7904f7b2b7" />
+
+2. Browse your firmware file.
+
+<img width="1220" height="506" alt="Screenshot 2025-10-02 233123" src="https://github.com/user-attachments/assets/5ed47b5a-6c7a-4794-b499-614e7e2460b9" />
+
+    
+4. Connect your STM32 MCU to your PC via **ST-Link V2**.
+5. Run the app.
+6. (Optional) Check **Enable Firmware Protection** to enable read protection (RDP1).  
+7. Click **Install**.  
 
 The firmware will be flashed automatically with **real-time progress updates**.  
 You can also share this app along with your `.bin` file in the `bin` folder. It works like a **package installer**, allowing someone else to flash the MCU with **just one click**.
