@@ -3,16 +3,37 @@
 
 
 
-**AMN STM32 Flasher** is a one-click firmware flasher for STM32 microcontrollers.  
-It makes flashing STM32 devices **as easy as installing a regular application**. Simply place the compiled `.bin` firmware in the `bin` folder, share the app, and your users can:
+# AMN STM32 Flasher
+<img width="1920" height="1080" alt="exp_1 1 1" src="https://github.com/user-attachments/assets/6970617b-b619-4b57-960d-ee9d183b4b93" />
 
-1. Connect their MCU to a PC.  
-2. Run the app.  
-3. Click **Install**.  
+**AMN STM32 Flasher** is a one-click **firmware flasher** and **installable firmware package creator** for STM32 microcontrollers.  
+It makes flashing STM32 devices **as easy as installing a regular application**.  
 
-The firmware is automatically burned onto the chip — no source code, no code editor, and no complex setup required.  
+You can use it in two ways:
 
-This tool is perfect for **beginners and non-experienced users**, allowing anyone to try out STM32 projects **without compiling code or setting up development environments**. It also **saves time for experienced embedded system engineers**, as everything is fully automated.
+### 🧩 Option 1 – As a Firmware Package Creator
+Simply click **Add Firmware**, then press **C** to create an installable firmware package.  
+Share the generated package — and your users can:
+
+1. **Extract** the firmware package.  
+2. **Connect** their STM32 MCU to a PC via an **ST-Link programmer**.  
+3. **Run** the `AMN STM32 Flasher.exe` file inside the extracted folder.  
+4. *(Optional)* Enable **Firmware Protection (RDP1)** if desired, then click **Install**.  
+
+The firmware will be automatically written to the chip —  
+no source code, no IDE, and no complex setup required.  
+
+### ⚡ Option 2 – As a Flashing Tool
+You can also use **AMN STM32 Flasher** directly as a standard flasher.  
+Just install it like a regular application, then:
+
+1. **Run the app** from the desktop shortcut.  
+2. Press **A** or **Enter** (or click **Add Firmware**) to select your `.bin` firmware.  
+3. *(Optional)* Enable **Firmware Protection** if you want to activate read protection.  
+4. Press **Enter** or click **Install** to flash your STM32 device instantly.  
+
+This tool is perfect for **beginners and non-experienced users**, allowing anyone to try STM32 projects **without compiling code or setting up development environments**.  
+It also **saves time for experienced embedded engineers** through fully automated flashing and package creation.
 
 ---
 
@@ -21,11 +42,13 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 - **One-Click Flash** – Flash your device with a single click.  
 - **Create Firmware Installer** – Package your firmware as a single-click installer.  
 - **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.  
-- **ST-LINK_CLI Automatic Detection** – Detects and uses `ST-LINK_CLI.exe` installed on your system.  
+- **ST-LINK_CLI Command Integration** – Sends commands to `ST-LINK_CLI.exe` if installed.  
 - **Modern Dark UI** – Sleek dark mode interface with a purple-green theme.  
 - **Optional Firmware Protection** – Enable/disable read protection (RDP1).  
 - **Smooth Progress Feedback** – Real-time progress bar and status updates.  
 - **Keyboard Shortcuts** – Quickly access key functions without using the mouse.  
+
+---
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -36,6 +59,7 @@ This tool is perfect for **beginners and non-experienced users**, allowing anyon
 | `I` / `Enter`  | ⚡ Flash firmware                        |
 | `A` / `Enter`  | ➕ Add firmware file                     |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1) |
+
 
 
 ---
