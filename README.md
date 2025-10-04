@@ -1,11 +1,6 @@
 # AMN STM32 Flasher
 <img width="1920" height="1080" alt="exp_1 1 1" src="https://github.com/user-attachments/assets/6970617b-b619-4b57-960d-ee9d183b4b93" />
 
-
-
-# AMN STM32 Flasher
-<img width="1920" height="1080" alt="exp_1 1 1" src="https://github.com/user-attachments/assets/6970617b-b619-4b57-960d-ee9d183b4b93" />
-
 **AMN STM32 Flasher** is a one-click **firmware flasher** and **installable firmware package creator** for STM32 microcontrollers.  
 It makes flashing STM32 devices **as easy as installing a regular application**.  
 
