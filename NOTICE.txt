@@ -1,0 +1,55 @@
+AMN STM32 Flasher
+Copyright (c) 2025 Aneesh Murali Nariyampully
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+----------------------------------------------------------------------
+NOTICE AND ATTRIBUTIONS
+----------------------------------------------------------------------
+
+This software includes and depends on the following third-party components:
+
+1. **CustomTkinter**  
+   - License: MIT License  
+   - Copyright (c) 2021 Tom Schimansky  
+   - Repository: https://github.com/TomSchimansky/CustomTkinter  
+
+2. **Python 3 Standard Library**  
+   - License: Python Software Foundation License  
+   - Copyright (c) Python Software Foundation  
+   - Website: https://www.python.org/  
+
+3. **ST-LINK_CLI.exe** (external tool)  
+   - Property of STMicroelectronics  
+   - License: Proprietary / STMicroelectronics Software License Agreement  
+   - Note: This application does **not** include or redistribute `ST-LINK_CLI.exe`.  
+     Users must install it separately from an official STMicroelectronics package.
+     Usage of this tool must comply with STMicroelectronics’ terms and conditions.
+
+----------------------------------------------------------------------
+DISCLAIMER
+----------------------------------------------------------------------
+
+This software is provided “as is”, without warranty of any kind, express or implied.  
+The developer is not responsible for any damage to hardware, firmware, or data
+that may result from use or misuse of this application.  
+Users should ensure that they are flashing the correct firmware and using
+compatible hardware.
+
+----------------------------------------------------------------------
+PROJECT HOMEPAGE
+----------------------------------------------------------------------
+
+Project: AMN STM32 Flasher  
+Author: Aneesh Murali Nariyampully  
+Repository: https://github.com/aneeshmurali-n/AMN-STM32-Flasher  
