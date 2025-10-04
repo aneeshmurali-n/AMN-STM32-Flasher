@@ -137,24 +137,31 @@ Example:
 ---
 
 ## Credits
+- Aneesh Murali Nariyampully – Original author & developer  
+- CustomTkinter – MIT License (by Tom Schimansky)  
+- STMicroelectronics – ST-LINK_CLI.exe (dependency, see Important Notice)
 
-- **Aneesh Murali Nariyampully** – Original author & developer  
-- **CustomTkinter** – MIT License (by Tom Schimansky)  
-- **STMicroelectronics** – ST-LINK_CLI.exe (used as a dependency, see Important Notice)
 ---
 
-## License
+## 📄 License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
+© 2025 Aneesh Murali Nariyampully  
+Licensed under the Apache License, Version 2.0.  
+You may obtain a copy of the License at  
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an **"AS IS" BASIS**,  
+**without warranties or conditions of any kind**, either express or implied.  
+See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
 ## Disclaimer
 
-- This software is provided “as-is” with **no warranty**.  
-- The developer is **not responsible** for any firmware, hardware, or software issues caused by misuse, improper flashing, or license violations.  
-- Users must comply with STMicroelectronics’ licensing terms if they use `ST-LINK_CLI.exe`.  
-- Using this app assumes that the user understands and accepts all risks related to flashing STM32 devices.
+- This software is provided “as is”, without warranty of any kind.  
+- The developer is not responsible for any hardware or firmware damage caused by misuse.  
+- `ST-LINK_CLI.exe` is property of **STMicroelectronics** and must be used according to their license terms.
 
 ---
 
