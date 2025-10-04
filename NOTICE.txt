@@ -29,12 +29,13 @@ This software includes and depends on the following third-party components:
    - Copyright (c) Python Software Foundation  
    - Website: https://www.python.org/  
 
-3. **ST-LINK_CLI.exe** (external tool)  
-   - Property of STMicroelectronics  
-   - License: Proprietary / STMicroelectronics Software License Agreement  
-   - Note: This application does **not** include or redistribute `ST-LINK_CLI.exe`.  
-     Users must install it separately from an official STMicroelectronics package.
-     Usage of this tool must comply with STMicroelectronics’ terms and conditions.
+3. ST-LINK_CLI.exe (external command-line tool)
+   - Property of STMicroelectronics
+   - License: Proprietary / STMicroelectronics Software License Agreement
+   - This application does not include or distribute ST-LINK_CLI.exe.
+     It only sends standard command-line instructions to it if installed.
+     Users are responsible for ensuring that ST-LINK_CLI.exe is properly installed
+     and used in accordance with STMicroelectronics’ licensing terms.
 
 ----------------------------------------------------------------------
 DISCLAIMER
