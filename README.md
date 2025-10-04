@@ -159,9 +159,10 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ## Disclaimer
 
-- This software is provided “as is”, without warranty of any kind.  
-- The developer is not responsible for any hardware or firmware damage caused by misuse.  
-- `ST-LINK_CLI.exe` is property of **STMicroelectronics** and must be used according to their license terms.
+- This software is provided “as is”, without warranty of any kind, express or implied.  
+- The developer is not responsible for any damage to hardware, firmware, or data that may result from use or misuse of this application.  
+- Users should verify that they are flashing the correct firmware and using compatible devices.  
+- `ST-LINK_CLI.exe` is the property of **STMicroelectronics** and must be used in accordance with their licensing terms.
 
 ---
 
