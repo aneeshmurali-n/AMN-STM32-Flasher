@@ -189,5 +189,10 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
+## 🌐 Project Information
+- **Author:** Aneesh Murali Nariyampully  
+- **Repository:** [https://github.com/aneeshmurali/AMN_STM32_Flasher](https://github.com/aneeshmurali/AMN_STM32_Flasher)  
+- **License:** [Apache 2.0](LICENSE)  
+- **Notices:** [NOTICE](NOTICE.txt)
 
   
