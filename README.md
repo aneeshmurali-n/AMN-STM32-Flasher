@@ -74,26 +74,25 @@ You can also share this app along with your `.bin` file in the `bin` folder. It 
 
 ---
 
+## ⚙️ External Tools
 
-## Dependencies & Licensing
+This application does **not include or bundle** any STMicroelectronics software.  
+It simply sends standard command-line instructions to **ST-LINK_CLI.exe** if it is already installed on your system.
 
-- `ST-LINK_CLI.exe` from **STMicroelectronics** is required to flash STM32 devices.  
-  - The app **does not include or redistribute** this executable, it must be installed on your system.  
-  - See **Important Notice** below for licensing information.
+`ST-LINK_CLI.exe` is a proprietary tool developed by **STMicroelectronics** for communicating with STM32 devices.  
+You must install it separately using one of the following:
+- **ST-LINK Utility**  
+- **STM32CubeProgrammer**  
+- **Arduino STM32 Core** (STM32F1xx / GD32F1xx boards)
+
+Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**, independent of this software.
 
 ---
 
-## Important Notice
-
-⚠️ **ST-LINK_CLI.exe is not included** due to ST’s licensing restrictions.  
-
-- You **do not need to copy or redistribute** it. The app will detect it automatically if installed.  
-- Copying `ST-LINK_CLI.exe` into the app folder **may violate ST’s license**. This is **your responsibility**, not the developer’s.  
-- Ensure that one of the supported ST programs is installed:  
-  - ST-LINK Utility  
-  - Arduino STM32 cores (STM32F1xx/GD32F1xx boards by stm32duino)  
-
-The app is designed to work without copying files, so **please comply with ST’s license**.
+## ⚠️ Important Notes
+- The app **does not redistribute** or embed `ST-LINK_CLI.exe`.  
+- It **interacts externally** with it (similar to running commands in Command Prompt).  
+- Users must ensure compliance with **STMicroelectronics’ licensing terms**. 
 
 ---
 
@@ -128,18 +127,18 @@ Example:
 ---
 
 ## Why Use This App?
-
-- Turn your firmware into a **sharable installer** for easy distribution.  
-- Perfect for beginners who don’t want to deal with code editors or compilation.  
-- Saves time for experienced embedded engineers with fully automated flashing.  
-- Makes STM32 projects **accessible and easy to try** for anyone following tutorials or using shared firmware packages.
+- Converts firmware into an installer-style package.
+- Simplifies STM32 firmware updates for beginners.
+- Automates repetitive flashing for professionals.
+- Makes STM32 projects easy to distribute and reproduce.
   
 ---
 
 ## Credits
 - Aneesh Murali Nariyampully – Original author & developer  
 - CustomTkinter – MIT License (by Tom Schimansky)  
-- STMicroelectronics – ST-LINK_CLI.exe (dependency, see Important Notice)
+- Python Software Foundation – Python 3.x Standard Library
+- STMicroelectronics – ST-LINK_CLI.exe (external command-line tool)
 
 ---
 
