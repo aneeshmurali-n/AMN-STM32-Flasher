@@ -1,9 +1,17 @@
-# AMN STM32 Flasher
-<img width="1920" height="1080" alt="exp_1 1 1" src="https://github.com/user-attachments/assets/6970617b-b619-4b57-960d-ee9d183b4b93" />
+# AMN STM32 Flasher  
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.12%2B-brightgreen.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows_10/11-lightgrey.svg)
+![UI](https://img.shields.io/badge/UI_Dark_purple_green_by_AMN-CustomTkinter-9cf.svg)
 
 **AMN STM32 Flasher** is a one-click **firmware flasher** and **installable firmware package creator** for STM32 microcontrollers.  
 It makes flashing STM32 devices **as easy as installing a regular application**.  
 
+<img width="1920" height="1080" alt="exp_1 1 1" src="https://github.com/user-attachments/assets/6970617b-b619-4b57-960d-ee9d183b4b93" />
+
+
+<br>
+<br>
 You can use it in two ways:
 
 ### 🧩 Option 1 – As a Firmware Package Creator
@@ -142,6 +150,13 @@ Example:
 - Required Python packages:  
   - `customtkinter==5.2.2` 
 
+---
+
+## 🧩 Installation
+
+1. Download the latest release from the [Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.    
+2. Run `AMN STM32 Flasher setup.exe`.  
+3. Add your firmware and start flashing!
 
 ---
 
