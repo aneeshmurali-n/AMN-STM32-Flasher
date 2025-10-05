@@ -110,7 +110,7 @@ It simply sends standard command-line instructions to **ST-LINK_CLI.exe** if it 
 You must install it separately using one of the following:
 - **ST-LINK Utility**  
 - **Arduino STM32 Core** STM32F1xx/GD32F1xx boards by stm32duino
-Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**, independent of this software.
+- Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**, independent of this software.
 
 ---
 
