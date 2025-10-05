@@ -118,9 +118,6 @@ Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**
 
 ### ⚙️ Supported STM32 MCU Families
 
-They all have internal flash memory starting at `0x08000000` and are fully supported by **ST-LINK_CLI.exe**  
-without requiring any changes to the address or tool configuration.
-
 | Family | Core | Example Devices |
 |:--------|:------|:----------------|
 | **STM32F0** | Cortex-M0 | F030, F042, F072, F091 |
@@ -134,12 +131,6 @@ without requiring any changes to the address or tool configuration.
 | **STM32L0** | Cortex-M0+ | L011, L031, L051, L071, L072, L081 |
 | **STM32L1** | Cortex-M3 | L100, L151, L152, L162 |
 | **STM32L4 / L4+** | Cortex-M4 | L412, L432, L452, L462, L476, L496, L4R5 |
-
----
-
-> **✅ Summary:**  
-> All the above MCU families support the **same ST-LINK CLI flashing command** and work out-of-the-box with `AMN STM32 Flasher`.  
-> No address modification or tool change is required.  
 
 ---
 
