@@ -19,7 +19,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ----------------------------------------------------------------------
-NOTICE AND ATTRIBUTIONS
+ THIRD-PARTY NOTICES AND ATTRIBUTIONS
 ----------------------------------------------------------------------
 
 This software includes and depends on the following third-party components:
@@ -62,20 +62,31 @@ This software includes and depends on the following third-party components:
      Users are responsible for ensuring that ST-LINK_CLI.exe is properly installed
      and used in accordance with STMicroelectronics’ licensing terms.
 
+4. Inno Setup Installer System  
+   - License: Freeware (by Jordan Russell)  
+   - Website: https://jrsoftware.org/isinfo.php  
+   - Used to package and distribute the Windows installer for this project.
+
 ----------------------------------------------------------------------
 DISCLAIMER
 ----------------------------------------------------------------------
 
 This software is provided “as is”, without warranty of any kind, express or implied.  
-The developer is not responsible for any damage to hardware, firmware, or data
-that may result from use or misuse of this application.  
-Users should ensure that they are flashing the correct firmware and using
-compatible hardware.
+The developer assumes no responsibility for any damage to hardware, firmware,
+or data resulting from use or misuse of this application.  
+Users must verify that they are flashing the correct firmware to compatible
+STM32 devices and have properly installed all required external tools.
 
 ----------------------------------------------------------------------
-PROJECT HOMEPAGE
+ PROJECT INFORMATION
 ----------------------------------------------------------------------
 
-Project: AMN STM32 Flasher  
-Author: Aneesh Murali Nariyampully  
-Repository: https://github.com/aneeshmurali-n/AMN-STM32-Flasher  
+Project : AMN STM32 Flasher  
+Author  : Aneesh Murali Nariyampully  
+Version : 1.0.0  
+Repository : https://github.com/aneeshmurali-n/AMN-STM32-Flasher  
+
+======================================================================
+ END OF NOTICE FILE
+======================================================================
+
