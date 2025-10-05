@@ -118,19 +118,28 @@ Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**
 
 ### ⚙️ Supported STM32 MCU Families
 
-| Family | Core | Example Devices | Notes |
-|:--------|:------|:----------------|:--------|
-| **STM32F0** | Cortex-M0 | F030, F042, F072, F091 | Entry-level series, fully supported |
-| **STM32F1** | Cortex-M3 | F100, F103, F105, F107 | Classic and widely used family |
-| **STM32F2** | Cortex-M3 | F205, F215, F207, F217 | Works identically to F4 series |
-| **STM32F3** | Cortex-M4 | F301, F302, F303, F334, F373 | Mixed-signal line, fully supported |
-| **STM32F4** | Cortex-M4 | F401, F405, F407, F411, F429, F446 | Verified and stable operation |
-| **STM32F7** | Cortex-M7 | F722, F746, F767, F769 | Fully supported; same memory base |
-| **STM32G0** | Cortex-M0+ | G030, G031, G041, G070, G071, G081 | Low-cost series, no special handling needed |
-| **STM32G4** | Cortex-M4 | G431, G441, G474, G484 | Fully supported |
-| **STM32L0** | Cortex-M0+ | L011, L031, L051, L071, L072, L081 | Ultra-low-power line, stable support |
-| **STM32L1** | Cortex-M3 | L100, L151, L152, L162 | Fully compatible with RDP and mass erase |
-| **STM32L4 / L4+** | Cortex-M4 | L412, L432, L452, L462, L476, L496, L4R5 | Fully supported; verified with ST-LINK CLI |
+They all have internal flash memory starting at `0x08000000` and are fully supported by **ST-LINK_CLI.exe**  
+without requiring any changes to the address or tool configuration.
+
+| Family | Core | Example Devices |
+|:--------|:------|:----------------|
+| **STM32F0** | Cortex-M0 | F030, F042, F072, F091 |
+| **STM32F1** | Cortex-M3 | F100, F103, F105, F107 |
+| **STM32F2** | Cortex-M3 | F205, F215, F207, F217 |
+| **STM32F3** | Cortex-M4 | F301, F302, F303, F334, F373 |
+| **STM32F4** | Cortex-M4 | F401, F405, F407, F411, F429, F446 |
+| **STM32F7** | Cortex-M7 | F722, F746, F767, F769 |
+| **STM32G0** | Cortex-M0+ | G030, G031, G041, G070, G071, G081 |
+| **STM32G4** | Cortex-M4 | G431, G441, G474, G484 |
+| **STM32L0** | Cortex-M0+ | L011, L031, L051, L071, L072, L081 |
+| **STM32L1** | Cortex-M3 | L100, L151, L152, L162 |
+| **STM32L4 / L4+** | Cortex-M4 | L412, L432, L452, L462, L476, L496, L4R5 |
+
+---
+
+> **✅ Summary:**  
+> All the above MCU families support the **same ST-LINK CLI flashing command** and work out-of-the-box with `AMN STM32 Flasher`.  
+> No address modification or tool change is required.  
 
 ---
 
