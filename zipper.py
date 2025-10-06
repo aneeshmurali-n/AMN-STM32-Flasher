@@ -54,10 +54,17 @@ def zip_app_with_progress(app_dir: str = ".", bin_folder: str = "bin", progress_
     files_to_zip = list(app_dir.rglob("*"))
     total_files = len(files_to_zip) or 1
 
+    # Items to skip
+    extensions = (".zip", ".rar", ".7z")
+    filenames = ("cache.amn"," ")
+
+    # Lambda to check if a file should be skipped
+    should_skip = lambda f: (f.suffix in extensions or f.name in filenames or f.name.startswith("unins0"))
+
     with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zipf:
         for idx, file in enumerate(files_to_zip, start=1):
-            if file.suffix == ".zip" or file.name == "cache.amn":
-                continue
+            if should_skip(file):
+                continue                # skip
             zipf.write(file, arcname=file.relative_to(app_dir))
 
             if progress_callback:
