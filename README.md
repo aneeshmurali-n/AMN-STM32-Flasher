@@ -81,6 +81,7 @@ It also **saves time for experienced embedded engineers** through fully automate
 
 3. Connect your STM32 MCU to your PC via **ST-Link V2**.
 
+<img width="1302" height="716" alt="ST-LINK-V2" src="https://github.com/user-attachments/assets/eb7ceb87-1124-492f-abab-c1758185b13e" />
 
 
 4. (Optional) Check **Enable Firmware Protection** if you want to enable read protection (RDP1).
