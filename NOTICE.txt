@@ -62,11 +62,11 @@ This software includes and depends on the following third-party components:
      Users are responsible for ensuring that ST-LINK_CLI.exe is properly installed
      and used in accordance with STMicroelectronics’ licensing terms.
 
-4. Inno Setup Compiler
-   - License: Freeware
-   - Author: Jordan Russell
-   - Website: https://jrsoftware.org/isinfo.php
-   - Description: Used to package and distribute the Windows installer for this project.
+4. Inno Setup Compiler  
+   - License: Freeware  
+   - Author: Jordan Russell  
+   - Website: https://jrsoftware.org/isinfo.php  
+   - Description: Used to package and distribute the Windows installer for this project. 
 
 ----------------------------------------------------------------------
 DISCLAIMER
