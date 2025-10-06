@@ -4,6 +4,8 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows_10/11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI_Dark_purple_green_by_AMN-CustomTkinter-9cf.svg)
 
+> 🧠 One-click firmware flashing & installer creation for STM32 microcontrollers — built for simplicity, power, and style.
+
 **AMN STM32 Flasher** is a one-click **firmware flasher** and **installable firmware package creator** for STM32 microcontrollers.  
 It makes flashing STM32 devices **as easy as installing a regular application**.  
 
@@ -186,12 +188,12 @@ Example:
 ---
 
 ## Credits
-- Aneesh Murali Nariyampully – Original author & developer  
-- CustomTkinter – MIT License (by Tom Schimansky)  
-- Python Software Foundation – Python 3.x Standard Library
-- STMicroelectronics – ST-LINK_CLI.exe (external command-line tool)
-- Inno Setup Compiler – Freeware by Jordan Russell, used to create the Windows installer.
-
+- **Aneesh Murali Nariyampully** – Original Author & Developer  
+- **CustomTkinter** – MIT License (by Tom Schimansky)  
+- **Python Software Foundation** – Python 3.x Standard Library  
+- **STMicroelectronics** – ST-LINK_CLI.exe (External Command-Line Tool)  
+- **Inno Setup Compiler** – Freeware by Jordan Russell, used to create the Windows installer.
+  
 ---
 
 ## 📄 License
@@ -221,6 +223,12 @@ See the [LICENSE](LICENSE) file for full terms.
 - **Author:** Aneesh Murali Nariyampully  
 - **Repository:** [https://github.com/aneeshmurali-n/AMN-STM32-Flasher](https://github.com/aneeshmurali-n/AMN-STM32-Flasher)  
 - **License:** [Apache 2.0](LICENSE)  
-- **Notices:** [NOTICE](NOTICE.txt)
+- **Notice:** [NOTICE.txt](NOTICE.txt)
+
+---
+
+Made with ❤️ by Aneesh Murali Nariyampully  
+If this project helps you, please ⭐ it on GitHub!
+
 
   
