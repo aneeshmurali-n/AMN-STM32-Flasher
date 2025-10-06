@@ -16,7 +16,7 @@ It makes flashing STM32 devices **as easy as installing a regular application**.
 <br>
 You can use it in two ways:
 
-### 🧩 Option 1 – As a Firmware Package Creator
+### 🧩 Option 1 – As an Installable STM32 Firmware Package Creator
 Simply click **Add Firmware**, then press **C** to create an installable firmware package.  
 Share the generated package — and your users can:
 
@@ -28,7 +28,7 @@ Share the generated package — and your users can:
 The firmware will be automatically written to the chip —  
 no source code, no IDE, and no complex setup required.  
 
-### ⚡ Option 2 – As a Flashing Tool
+### ⚡ Option 2 – As a One-Click STM32 Firmware Flasher
 You can also use **AMN STM32 Flasher** directly as a standard flasher.  
 Just install it like a regular application, then:
 
