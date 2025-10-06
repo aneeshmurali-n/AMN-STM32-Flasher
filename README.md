@@ -73,34 +73,34 @@ It also **saves time for experienced embedded engineers** through fully automate
 
 <img width="755" height="389" alt="Screenshot 2025-10-02 233050" src="https://github.com/user-attachments/assets/383ebed1-d129-4bfb-8916-8acf0879dec0" />
 
-1. Click Add Firmware or press `A` / `Enter` on key board to add the `.bin` firmware in the `bin` folder.
+**1. Click Add Firmware or press `A` / `Enter` on key board to add the `.bin` firmware in the `bin` folder.**
 
 <img width="1220" height="506" alt="Screenshot 2025-10-02 233123" src="https://github.com/user-attachments/assets/0a410f1e-960d-4f8a-9d92-1f7904f7b2b7" />
 
-2. Browse your firmware file.
+**2. Browse your firmware file.**
 
 <img width="756" height="370" alt="Screenshot 2025-10-02 233142" src="https://github.com/user-attachments/assets/d2515af3-14f4-4cf8-ae88-6f44462a25ba" />
 
-3. Connect your STM32 MCU to your PC via **ST-Link V2**.
+**3. Connect your STM32 MCU to your PC via **ST-Link V2**.**
 
 <img width="1302" height="716" alt="ST-LINK-V2" src="https://github.com/user-attachments/assets/eb7ceb87-1124-492f-abab-c1758185b13e" />
 
 
-4. (Optional) Check **Enable Firmware Protection** if you want to enable read protection (RDP1).
+**4. (Optional) Check **Enable Firmware Protection** if you want to enable read protection (RDP1).**
 
 <img width="806" height="416" alt="image" src="https://github.com/user-attachments/assets/d9580073-a57d-496c-89dc-b6577f6dba65" />
 
    
-5. Click **Install**.
+**5. Click **Install**.**
 
 <img width="822" height="463" alt="image" src="https://github.com/user-attachments/assets/f62a9a72-1cfe-4e28-815c-67b5d8a25797" />
    
-The firmware will be flashed automatically with **real-time progress updates**.  
+**The firmware will be flashed automatically with **real-time progress updates**.**
 
 <img width="748" height="393" alt="image" src="https://github.com/user-attachments/assets/003a6774-80a8-4b45-bcdc-a46bd91d11b9" />
 
 
-You can also share this app along with your `.bin` file in the `bin` folder. It works like a **package installer**, allowing someone else to flash the MCU with **just one click**.
+**You can also share this app along with your `.bin` file in the `bin` folder. It works like a **package installer**, allowing someone else to flash the MCU with **just one click**.**
 
 ---
 
