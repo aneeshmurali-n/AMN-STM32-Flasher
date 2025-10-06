@@ -190,6 +190,7 @@ Example:
 - CustomTkinter – MIT License (by Tom Schimansky)  
 - Python Software Foundation – Python 3.x Standard Library
 - STMicroelectronics – ST-LINK_CLI.exe (external command-line tool)
+- Inno Setup Compiler – Freeware by Jordan Russell, used to create the Windows installer.
 
 ---
 
