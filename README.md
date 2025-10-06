@@ -179,6 +179,42 @@ Example:
 
 ---
 
+## 🔐 File Integrity Verification (SHA-256 Checksums)
+
+> 🛡️ **Verify your download:**  
+> These SHA-256 checksums let you confirm that your files are authentic and haven’t been modified.
+
+| File | Description | SHA-256 |
+|------|--------------|----------|
+| `AMN STM32 Flasher.exe` | Core standalone application | `EE811486F52A878FF453BF650C968989F583C549C09B101FE776E99A0DED81B0` |
+| `AMN STM32 Flasher Setup.exe` | Windows standalone application installer | `4C41FF92CB2E0F05768DC9E6B2E64F0C5876B05B436035D4BF39866D2DF16421` |
+
+---
+
+### 🧮 Verify the Hash
+
+You can verify the file’s authenticity using **Windows PowerShell** (built into Windows 10 & 11).
+
+1. Go to the folder where the files are saved.  
+2. **Hold Shift + Right-click** inside the folder background and select **“Open PowerShell window here”** or **"Open in Terminal"**.  
+3. Run the command for the file you want to check:
+4. Compare the result with the SHA-256 hash listed above.<br>
+   ✅ If they match — the file is safe.<br>
+   ⚠️ If not — re-download it from the official releases page.<br>
+   
+```
+
+Get-FileHash "AMN STM32 Flasher Setup.exe" -Algorithm SHA256
+
+```
+
+```
+
+Get-FileHash "AMN STM32 Flasher.exe" -Algorithm SHA256
+
+```
+
+
 ## Why Use This App?
 - Converts firmware into an installer-style package.
 - Simplifies STM32 firmware updates for beginners.
