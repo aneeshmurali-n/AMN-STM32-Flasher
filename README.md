@@ -21,7 +21,7 @@ Everything just works  beautifully.
 
 ## 🧭 Vision
 
-> *“Flashing firmware should be as simple as moving a file.”*
+> ### *“Flashing firmware should be as simple as moving a file.”*
 
 **AMN STM32 Flasher** isn’t just another tool — it’s a statement.  
 It redefines how developers interact with embedded hardware:  
