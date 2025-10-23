@@ -3,67 +3,44 @@
 ![Python](https://img.shields.io/badge/Python-3.14%2B-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows_10/11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI_Dark_purple_green_by_AMN-CustomTkinter-9cf.svg)
+## 🏆 The World’s First Drag-and-Drop Firmware Flasher
 
-The world’s first Drop-to-Flash firmware flasher — built for simplicity, elegance, power, and style.
+**No terminals. No setup. No stress.**  
+Just **drop your file** — and watch your STM32 flash itself.
 
-AMN STM32 Flasher is a revolutionary drag-and-drop firmware flashing tool for STM32 microcontrollers.
-It transforms the traditional, complex flashing process into a seamless, one-step experience —
-just drop your .bin file, and the flasher takes care of everything automatically.
+Flashing STM32 firmware has never been this simple.  
+**AMN STM32 Flasher** replaces command lines and scripts with a single action:  
+**drag and drop** your `.bin` file — the app detects your ST-LINK, erases memory,  
+installs, verifies, and protects your firmware automatically.
 
-No terminals. No scripts. No confusion.
-Just drag, drop, done — and watch your STM32 come to life.
-
-https://github.com/user-attachments/assets/77e5941f-c59e-4696-adab-0e9a07a61817
-
-<br>
-<br>
-You can use it in two ways:
-
-### 🧩 Option 1 – As an Installable STM32 Firmware Package Creator
-Simply click **Add Firmware**, then press **C** to create an installable firmware package.  
-Share the generated package — and your users can:
-
-1. **Extract** the firmware package.  
-2. **Connect** their STM32 MCU to a PC via an **ST-Link programmer**.  
-3. **Run** the `AMN STM32 Flasher.exe` file inside the extracted folder.  
-4. *(Optional)* Enable **Firmware Protection (RDP1)** if desired, then click **Install**.  
-
-The firmware will be automatically written to the chip —  
-no source code, no IDE, and no complex setup required.  
-
-### ⚡ Option 2 – As a One-Click STM32 Firmware Flasher
-You can also use **AMN STM32 Flasher** directly as a standard flasher.  
-Just install it like a regular application, then:
-
-1. **Run the app** from the desktop shortcut.  
-2. Press **A** or **Enter** (or click **Add Firmware**) to select your `.bin` firmware.  
-3. *(Optional)* Enable **Firmware Protection** if you want to activate read protection.  
-4. Press **Enter** or click **Install** to flash your STM32 device instantly.  
-
-This tool is perfect for **beginners and non-experienced users**, allowing anyone to try STM32 projects **without compiling code or setting up development environments**.  
-It also **saves time for experienced embedded engineers** through fully automated flashing and package creation.
+Built for developers, engineers, and makers who value **speed**, **clarity**, and **style**.  
+Everything just works  beautifully.
 
 ---
 
-## ✨ Features
-- **Easy Firmware Flashing** – Install firmware as easily as a standard application.  
-- **One-Click Flash** – Flash your device with a single click.  
-- **Create Firmware Installer** – Package your firmware as a single-click installer.  
-- **Automatic Firmware Detection** – Detects `.bin` firmware files in the `bin` folder automatically.  
-- **ST-LINK_CLI Command Integration** – Sends commands to `ST-LINK_CLI.exe` if installed.  
-- **Modern Dark UI** – Sleek dark mode interface with a purple-green theme.  
-- **Optional Firmware Protection** – Enable/disable read protection (RDP1).  
-- **Smooth Progress Feedback** – Real-time progress bar and status updates.  
-- **Keyboard Shortcuts** – Quickly access key functions without using the mouse.  
+## 🚀 Key Features
 
+| ✨ Feature | 💡 Description |
+|------------|----------------|
+| 🖱️ **Drag & Drop Flashing** | Drop your `.bin` firmware file directly into the window — AMN handles everything. |
+| ⚡ **Drop Flash Mode** | Enable instant auto-flash — your STM32 flashes the moment you drop a file. |
+| 🧠 **Smart ST-LINK Detection** | Automatically locates `ST-LINK_CLI.exe` across drives and caches its path. |
+| 🔒 **Firmware Protection (RDP)** | Enable or disable STM32 readout protection (RDP) with one click. |
+| 🎛️ **Smooth Live Feedback** | 60 FPS animated progress bar with live status updates at every stage. |
+| 🧩 **Single-Instance Engine** | Prevents multiple launches — focuses the current window intelligently. |
+| 🪟 **True Native Integration** | Built natively for Windows with authentic drag-and-drop behavior. |
+| 🎨 **Dark Modern Theme** | Custom **Dark Purple Green by AMN** theme for focus and visual comfort. |
+| ⌨️ **Keyboard Shortcuts** | Quickly access key functions without using the mouse | 
+
+ 
 ---
 
 ## ⌨️ Keyboard Shortcuts
 
 | Shortcut       | Action                                   |
 |----------------|------------------------------------------|
-| `D` / `Delete` | 🗑️ Delete added firmware file            |
-| `C`            | 📦 Create firmware installer             |
+| `Q`            | ⚡ Enable / Disable Drop Flash Mode      |
+| `D` / `Delete` | 🗑️ Remove firmware file from workspace   |
 | `I` / `Enter`  | ⚡ Flash firmware                        |
 | `A` / `Enter`  | ➕ Add firmware file                     |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1) |
