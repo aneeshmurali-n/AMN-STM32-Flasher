@@ -1,5 +1,9 @@
 # AMN STM32 Flasher
 # binfinder.py — Locates firmware .bin files in the bin directory and return the first one found.
+# Note:
+#   This module is not currently used in the main application but is
+#   retained for potential future use or feature expansion.
+#
 # Copyright 2025 Aneesh Murali Nariyampully
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,3 +48,4 @@ def find_bin_file(bin_folder="bin", full_path=False):
 if __name__ == "__main__":
     print("Filename with extension:", find_bin_file(full_path=False))
     print("Full path:", find_bin_file(full_path=True))
+
