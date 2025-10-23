@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.14%2B-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI-Dark_Purple_Green_by_AMN-9cf.svg)
+
 ## 🏆 The World’s First Drag-and-Drop Firmware Flasher
 
 **No terminals. No setup. No stress.**  
@@ -17,6 +18,32 @@ Built for developers, engineers, and makers who value **speed**, **clarity**, an
 Everything just works  beautifully.
 
 ---
+
+## 🧭 Vision
+
+> *“Flashing firmware should be as simple as moving a file.”*
+
+**AMN STM32 Flasher** isn’t just another tool — it’s a statement.  
+It redefines how developers interact with embedded hardware:  
+simple, fast, and beautifully intuitive.
+
+For the first time, flashing firmware feels **human.**
+
+---
+
+
+## 🖼️ Experience It Yourself
+
+<p align="center">
+  <img src="assets/demo.gif" width="70%" alt="AMN STM32 Flasher Demo">
+</p>
+
+> **AMN STM32 Flasher**  
+> Flashing firmware has never looked this good.
+
+
+---
+
 
 ## 🚀 Key Features
 
@@ -35,28 +62,17 @@ Everything just works  beautifully.
  
 ---
 
+
 ## ⌨️ Keyboard Shortcuts
 
-| Shortcut       | Action                                   |
-|----------------|------------------------------------------|
-| `Q`            | ⚡ Enable / Disable Drop Flash Mode      |
-| `D` / `Delete` | 🧽 Clear firmware from workspace.        |
-| `I` / `Enter`  | ⬇️ Install firmware                      |
-| `A` / `Enter`  | ➕ Add firmware file                     |
+| Shortcut       | Action                                      |
+|----------------|---------------------------------------------|
+| `Q`            | ⚡ Toggle Drop Flash Mode (Enable / Disable)|
+| `D` / `Delete` | 🧽 Clear firmware from workspace.           |
+| `I` / `Enter`  | ⬇️ Install firmware                         |
+| `A` / `Enter`  | ➕ Add firmware file                        |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1)|
 
-
-
----
-
-## 🖼️ Experience It Yourself
-
-<p align="center">
-  <img src="assets/demo.gif" width="70%" alt="AMN STM32 Flasher Demo">
-</p>
-
-> **AMN STM32 Flasher**  
-> Flashing firmware has never looked this good.
 
 ---
 
@@ -74,21 +90,6 @@ with live progress, instant feedback, and a clean, modern interface.
 
 ---
 
-## 💡 How It Works
-
-1. **Launch** the app  
-2. **Drop or Select** your `.bin` firmware  
-3. **Click “Install”** or Do nothing — if Drop Flash is enabled, it starts instantly.  
-4. **Done.**  
-   Your firmware is installed, verified, and optionally protected.
-
-<p align="center">
-  <img src="assets/screen_ready.png" width="30%">
-  <img src="assets/screen_flash.png" width="30%">
-  <img src="assets/screen_protected.png" width="30%">
-</p>
-
----
 
 ## 🧰 Installation
 
@@ -108,34 +109,42 @@ with live progress, instant feedback, and a clean, modern interface.
 
 ---
 
+
 ## ⚠️ Important Notes
 
 - **AMN STM32 Flasher** does not include or distribute `ST-LINK_CLI.exe` or any STMicroelectronics software.  
 - The application only **communicates externally** with `ST-LINK_CLI.exe`, executing standard command-line operations securely and transparently.  
 - Users must install the official **ST-LINK Utility** separately and ensure compliance with **STMicroelectronics’ licensing terms**.  
 - For best results, keep the ST-LINK Utility installed in its default directory
-- 💡 **No worries:** AMN STM32 Flasher automatically detects the correct ST-LINK path — no manual setup required.  
+- 💡 **No worries:** AMN STM32 Flasher automatically detects the correct ST-LINK path — no manual setup required.
 
 
-  
+---
+
+## 💡 How It Works
+
+1. **Launch** the app  
+2. **Drop or Select** your `.bin` firmware  
+3. **Click “Install”** or Do nothing — if Drop Flash is enabled, it starts instantly.  
+4. **Done.**  
+   Your firmware is installed, verified, and optionally protected.
+
+<p align="center">
+  <img src="assets/screen_ready.png" width="30%">
+  <img src="assets/screen_flash.png" width="30%">
+  <img src="assets/screen_protected.png" width="30%">
+</p>
 
 ---
 
 ### ✅ Supported STM32 MCU Families
 
-| Family | Core | Example Devices |
-|:--------|:------|:----------------|
-| **STM32F0** | Cortex-M0 | F030, F042, F072, F091 |
-| **STM32F1** | Cortex-M3 | F100, F103, F105, F107 |
-| **STM32F2** | Cortex-M3 | F205, F215, F207, F217 |
-| **STM32F3** | Cortex-M4 | F301, F302, F303, F334, F373 |
-| **STM32F4** | Cortex-M4 | F401, F405, F407, F411, F429, F446 |
-| **STM32F7** | Cortex-M7 | F722, F746, F767, F769 |
-| **STM32G0** | Cortex-M0+ | G030, G031, G041, G070, G071, G081 |
-| **STM32G4** | Cortex-M4 | G431, G441, G474, G484 |
-| **STM32L0** | Cortex-M0+ | L011, L031, L051, L071, L072, L081 |
-| **STM32L1** | Cortex-M3 | L100, L151, L152, L162 |
-| **STM32L4 / L4+** | Cortex-M4 | L412, L432, L452, L462, L476, L496, L4R5 |
+**AMN STM32 Flasher** supports all STM32 microcontrollers compatible with **ST-LINK CLI** over **SWD (Serial Wire Debug)**.  
+By default, it operates at memory address **0x08000000** — the standard flash region for STM32 devices.  
+  
+Advanced users can easily change the **flash start address** in the configuration file  
+(`Documents/AMNSTM32Flasher/settings.json`) to match custom memory layouts or bootloader offsets.
+
 
 ---
 
@@ -194,18 +203,6 @@ DROP_FLASH — Stores the current state of the Drop Flash feature.
 - 💫 **Thread-Safe Architecture** — smooth, non-blocking progress updates and real-time feedback  
 - ⚙️ **ST-LINK CLI** *(external dependency, not bundled)* — official STM32 programming tool used **only if installed** on the system  
   > 📎 *AMN STM32 Flasher does not include, modify, or distribute any STMicroelectronics software.*
-
----
-
-## 🏆 Vision
-
-> *“Flashing firmware should be as simple as moving a file.”*
-
-**AMN STM32 Flasher** isn’t just another tool — it’s a statement.  
-It redefines how developers interact with embedded hardware:  
-simple, fast, and beautifully intuitive.
-
-For the first time, flashing firmware feels **human.**
 
 ---
 
