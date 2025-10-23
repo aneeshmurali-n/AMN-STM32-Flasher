@@ -1,8 +1,8 @@
 # AMN STM32 Flasher  
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.14%2B-brightgreen.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows_10/11-lightgrey.svg)
-![UI](https://img.shields.io/badge/UI_Dark_purple_green_by_AMN-CustomTkinter-9cf.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey.svg)
+![UI](https://img.shields.io/badge/UI-Dark_Purple_Green_by_AMN-9cf.svg)
 ## 🏆 The World’s First Drag-and-Drop Firmware Flasher
 
 **No terminals. No setup. No stress.**  
@@ -276,8 +276,8 @@ it helps others discover and support this innovation.
 
 ---
 
-Made with ❤️ by **Aneesh Murali Nariyampully**  
-If this project inspired you or made your workflow easier, please ⭐ it on GitHub!
+Made with ❤️ and precision by **Aneesh Murali Nariyampully**  
+If this project inspired you or made your workflow easier, please ⭐ it on GitHub.
 
 
 
