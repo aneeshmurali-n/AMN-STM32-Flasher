@@ -32,15 +32,15 @@ For the first time, flashing firmware feels **human.**
 ---
 
 
+
+
+
+
 ## 🖼️ Experience It Yourself
-
-<p align="center">
-  <img src="assets/demo.gif" width="70%" alt="AMN STM32 Flasher Demo">
-</p>
-
 > **AMN STM32 Flasher**  
-> Flashing firmware has never looked this good.
+> Flashing firmware is as simple as moving a file — and it’s never looked this good.
 
+https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 ---
 
