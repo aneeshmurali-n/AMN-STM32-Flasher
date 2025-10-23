@@ -1,31 +1,21 @@
-# AMN STM32 Flasher
-# Copyright 2025 Aneesh Murali Nariyampully
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
+# ----------------------------------------------------------------------
+# AMN STM32 Flasher v1.0.0 – The First Drag-and-Drop Firmware Flasher
+# ----------------------------------------------------------------------
+# Copyright 2025 Aneesh Murali Nariyampully – Apache 2.0
+# ----------------------------------------------------------------------
+# Module: formatter.py
+# Purpose:
+#   Converts firmware filenames into clean, readable labels
+# Examples:
+# - "AMN_CLI_Timer_v1_0_0.bin" -> "AMN CLI Timer v1.0.0"
+# - "AMN_CLI_Timer_v1_0.bin" -> "AMN CLI Timer v1.0"
+# - "Driver_v3_2.bin" -> "Driver v3.2"
+# ----------------------------------------------------------------------
 
 import re
 
 
 def format_firmware_name(filename: str) -> str:
-    """
-    Convert a firmware filename into a human-readable format.
-
-    Examples:
-    - "AMN_CLI_Timer_v1_0_0.bin" -> "AMN CLI Timer v1.0.0"
-    - "AMN_CLI_Timer_v1_0.bin" -> "AMN CLI Timer v1.0"
-    - "Driver_v3_2.bin" -> "Driver v3.2"
-    """
     # Remove file extension
     name = re.sub(r'\.bin$', '', filename, flags=re.IGNORECASE)
 

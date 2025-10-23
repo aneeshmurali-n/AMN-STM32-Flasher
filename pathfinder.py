@@ -1,35 +1,30 @@
-# AMN STM32 Flasher
-# Copyright 2025 Aneesh Murali Nariyampully
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# ----------------------------------------------------------------------
+# AMN STM32 Flasher v1.0.0 – The First Drag-and-Drop Firmware Flasher
+# ----------------------------------------------------------------------
+# Copyright 2025 Aneesh Murali Nariyampully – Apache 2.0
+# ----------------------------------------------------------------------
+# Module: pathfinder.py
+# Purpose:
+#   Searches for ST-LINK_CLI.exe across drives and caches its path for
+#   faster startup and reliable CLI access.
+
 
 
 import os
 from pathlib import Path
 import string
 
+# Return all available drives on Windows.
 def get_drives():
-    """Return all available drives on Windows."""
     return [f"{d}:\\" for d in string.ascii_uppercase if Path(f"{d}:\\").exists()]
 
 def find_path(filename, start_dirs=None):
-    """
-    Search for a file, checking the current directory first, then optional directories, then all drives.
+    # Search for a file, checking the current directory first, then optional directories, then all drives.
 
-    :param filename: Name of the file to search for (e.g., "ST-LINK_CLI.exe")
-    :param start_dirs: Optional list of directories to search before scanning all drives
-    :return: Full path to the first match, or None if not found
-    """
+    # :param filename: Name of the file to search for (e.g., "ST-LINK_CLI.exe")
+    # :param start_dirs: Optional list of directories to search before scanning all drives
+    # :return: Full path to the first match, or None if not found
+
     # 1. Check current working directory first
     cwd_path = Path(os.getcwd()) / filename
     if cwd_path.exists():
