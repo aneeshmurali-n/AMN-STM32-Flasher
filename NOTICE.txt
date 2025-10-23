@@ -29,7 +29,7 @@ This software includes and depends on the following third-party components:
    Repository: https://github.com/TomSchimansky/CustomTkinter  
    License File: third_party_licenses/CustomTkinter_LICENSE.txt  
    Note: Used as a dependency; not modified.  
-   The license applies to CustomTkinter version 5.2.1 (MIT License at time of distribution).
+   The license applies to CustomTkinter version 5.2.2 (MIT License at time of distribution).
 
 2. Python 3 Standard Library  
    License: Python Software Foundation License  
