@@ -63,7 +63,15 @@ and licensed before use.
 Project   : AMN STM32 Flasher  
 Author    : Aneesh Murali Nariyampully  
 Version   : 1.0.0  
-Repository: https://github.com/aneeshmurali-n/AMN-STM32-Flasher  
+Repository: https://github.com/aneeshmurali-n/AMN-STM32-Flasher
+
+----------------------------------------------------------------------
+ AUTHOR INFORMATION
+----------------------------------------------------------------------
+
+Aneesh Murali Nariyampully — Multidisciplinary Engineer, Creator, and Innovator  
+Bridging Electronics, Embedded Systems, Software, and AI — all under one vision.  
+Original Author & Developer of AMN STM32 Flasher.
 
 ======================================================================
  END OF NOTICE FILE
