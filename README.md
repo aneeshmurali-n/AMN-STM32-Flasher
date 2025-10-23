@@ -40,7 +40,7 @@ Everything just works  beautifully.
 | Shortcut       | Action                                   |
 |----------------|------------------------------------------|
 | `Q`            | ⚡ Enable / Disable Drop Flash Mode      |
-| `D` / `Delete` | 🧽 Cleare firmware from workspace.       |
+| `D` / `Delete` | 🧽 Clear firmware from workspace.        |
 | `I` / `Enter`  | ⬇️ Install firmware                      |
 | `A` / `Enter`  | ➕ Add firmware file                     |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1)|
