@@ -6,7 +6,7 @@
 ## 🏆 The World’s First Drag-and-Drop Firmware Flasher
 
 **No terminals. No setup. No stress.**  
-Just **drop your file** — and watch your STM32 flash itself.
+Just **drop your firmware** — and watch your STM32 flash itself.
 
 Flashing STM32 firmware has never been this simple.  
 **AMN STM32 Flasher** replaces command lines and scripts with a single action:  
@@ -40,64 +40,88 @@ Everything just works  beautifully.
 | Shortcut       | Action                                   |
 |----------------|------------------------------------------|
 | `Q`            | ⚡ Enable / Disable Drop Flash Mode      |
-| `D` / `Delete` | 🗑️ Remove firmware file from workspace   |
-| `I` / `Enter`  | ⚡ Flash firmware                        |
+| `D` / `Delete` | 🧽 Cleare firmware from workspace.       |
+| `I` / `Enter`  | ⬇️ Install firmware                      |
 | `A` / `Enter`  | ➕ Add firmware file                     |
-| `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1) |
+| `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1)|
 
 
 
 ---
 
-## How It Works
+## 🖼️ Experience It Yourself
 
-<img width="755" height="389" alt="Screenshot 2025-10-02 233050" src="https://github.com/user-attachments/assets/383ebed1-d129-4bfb-8916-8acf0879dec0" />
+<p align="center">
+  <img src="assets/demo.gif" width="70%" alt="AMN STM32 Flasher Demo">
+</p>
 
-**1. Click Add Firmware or press `A` / `Enter` on key board to add the `.bin` firmware in the `bin` folder.**
-
-<img width="1220" height="506" alt="Screenshot 2025-10-02 233123" src="https://github.com/user-attachments/assets/0a410f1e-960d-4f8a-9d92-1f7904f7b2b7" />
-
-**2. Browse your firmware file.**
-
-<img width="756" height="370" alt="Screenshot 2025-10-02 233142" src="https://github.com/user-attachments/assets/d2515af3-14f4-4cf8-ae88-6f44462a25ba" />
-
-**3. Connect your STM32 MCU to your PC via **ST-Link V2**.**
-
-<img width="1302" height="716" alt="ST-LINK-V2" src="https://github.com/user-attachments/assets/eb7ceb87-1124-492f-abab-c1758185b13e" />
-
-
-**4. (Optional) Check **Enable Firmware Protection** if you want to enable read protection (RDP1).**
-
-<img width="806" height="416" alt="image" src="https://github.com/user-attachments/assets/d9580073-a57d-496c-89dc-b6577f6dba65" />
-
-   
-**5. Click **Install**.**
-
-<img width="822" height="463" alt="image" src="https://github.com/user-attachments/assets/f62a9a72-1cfe-4e28-815c-67b5d8a25797" />
-   
-**The firmware will be flashed automatically with **real-time progress updates**.**
-
-<img width="748" height="393" alt="image" src="https://github.com/user-attachments/assets/003a6774-80a8-4b45-bcdc-a46bd91d11b9" />
-
-
-**You can also share this app along with your `.bin` file in the `bin` folder. It works like a **package installer**, allowing someone else to flash the MCU with **just one click**.**
+> **AMN STM32 Flasher**  
+> Flashing firmware has never looked this good.
 
 ---
 
-## ⚙️ External Tools
+## 🧠 Why It’s Different
 
-This application does **not include or bundle** any STMicroelectronics software.  
-It simply sends standard command-line instructions to **ST-LINK_CLI.exe** if it is already installed on your system.
+**AMN STM32 Flasher** was built for humans.
 
-`ST-LINK_CLI.exe` is a proprietary tool developed by **STMicroelectronics** for communicating with STM32 devices.  
-You must install it separately using one of the following:
-- **ST-LINK Utility**  
-- **Arduino STM32 Core** STM32F1xx/GD32F1xx boards by stm32duino
-- Usage of `ST-LINK_CLI.exe` is subject to **STMicroelectronics’ license terms**, independent of this software.
+It’s the first tool that turns flashing into a **single natural action** — just drop your `.bin` file.  
+No setup, no scripts, no console output — everything happens automatically.  
+
+It detects your ST-LINK, erases, flashes, verifies, and protects your firmware —  
+with live progress, instant feedback, and a clean, modern interface.  
+
+> ⚡ **Where others demand commands, AMN STM32 Flasher just works.**
 
 ---
 
-### ⚙️ Supported STM32 MCU Families
+## 💡 How It Works
+
+1. **Launch** the app  
+2. **Drop or Select** your `.bin` firmware  
+3. **Click “Install”** or Do nothing — if Drop Flash is enabled, it starts instantly.  
+4. **Done.**  
+   Your firmware is installed, verified, and optionally protected.
+
+<p align="center">
+  <img src="assets/screen_ready.png" width="30%">
+  <img src="assets/screen_flash.png" width="30%">
+  <img src="assets/screen_protected.png" width="30%">
+</p>
+
+---
+
+## 🧰 Installation
+
+### 🔹 Requirements
+- 🪟 **Windows 10 / 11 (64-bit)**
+- 🐍 **Python 3.14+** *(only required for development or source builds)*
+- 🔗 [**ST-LINK CLI**](https://www.st.com/en/development-tools/stsw-link004.html)  
+  *(Included in the official ST-LINK Utility package from STMicroelectronics)*
+
+### 🔹 Steps
+1. Download the latest version from the [📦 Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.  
+2. Run **`AMN STM32 Flasher Setup.exe`** and complete the installation.  
+3. Launch the app.  
+4. Drag and drop your `.bin` firmware file — flashing begins automatically!  
+
+> ⚡ No terminal. No manual setup. Just **drop and flash.**
+
+---
+
+## ⚠️ Important Notes
+
+- **AMN STM32 Flasher** does not include or distribute `ST-LINK_CLI.exe` or any STMicroelectronics software.  
+- The application only **communicates externally** with `ST-LINK_CLI.exe`, executing standard command-line operations securely and transparently.  
+- Users must install the official **ST-LINK Utility** separately and ensure compliance with **STMicroelectronics’ licensing terms**.  
+- For best results, keep the ST-LINK Utility installed in its default directory
+- 💡 **No worries:** AMN STM32 Flasher automatically detects the correct ST-LINK path — no manual setup required.  
+
+
+  
+
+---
+
+### ✅ Supported STM32 MCU Families
 
 | Family | Core | Example Devices |
 |:--------|:------|:----------------|
@@ -115,100 +139,92 @@ You must install it separately using one of the following:
 
 ---
 
-## ⚠️ Important Notes
-- The app **does not redistribute** or embed `ST-LINK_CLI.exe`.  
-- It **interacts externally** with it (similar to running commands in Command Prompt).  
-- Users must ensure compliance with **STMicroelectronics’ licensing terms**. 
 
----
 
-## Configuration (`bin/settings.json`)
+## ⚙️ Configuration File (`settings.json`)
 
-Example:
+The configuration file is automatically created in:  
+`Documents/AMNSTM32Flasher/settings.json`
 
+You can edit this file to adjust flashing behavior and preferences.
+
+### 🧩 Example:
 ```json
 {
-  "FLASH_START_ADDR": "0x08000000"
+    "FLASH_START_ADDR": "0x08000000",
+    "DROP_FLASH": "ENABLED"
 }
 ```
-- FLASH_START_ADDR – Flash start address (usually 0x08000000 for STM32). Adjust as needed.
+💡 Parameters
+
+FLASH_START_ADDR — Defines the starting memory address for firmware flashing.
+Default: 0x08000000 (standard for most STM32 MCUs).
+Only change this if you are flashing to a custom memory region.
+
+DROP_FLASH — Stores the current state of the Drop Flash feature.
+
+"ENABLED" → Automatically flashes when a .bin file is dropped into the window.
+
+"DISABLED" → File drop still replaces the previous firmware, but flashing occurs only when you press Install or use shortcuts.
+
+⚙️ The app manages this file automatically — manual edits are optional and rarely needed.
 
 ---
 
+## 🧩 Architecture Overview
 
-## Requirements
-
-### Running the Executable
-
-- Windows 10 or 11  
-- Installed ST-LINK_CLI.exe (via ST-LINK Utility or STM32 Arduino cores)
-
-### Running from Source
-
-- Python 3.12.5 or higher  
-- Required Python packages:  
-  - `customtkinter==5.2.2` 
-
----
-
-## 🧩 Installation
-
-1. Download the latest release from the [Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.    
-2. Run `AMN STM32 Flasher setup.exe`.  
-3. Add your firmware and start flashing!
+| Module | Purpose |
+|--------|----------|
+| `AMN_STM32_Flasher_v1.0.0.0.py` | Core GUI + Flashing logic |
+| `amn_instance.py` | Single-instance mutex controller |
+| `amn_drop.py` | Native Windows drag-in handler |
+| `amn_dragout.py` | Detects drag-out gestures |
+| `amn_drag_simulator.py` | Floating drag text animation |
+| `pathfinder.py` | ST-LINK CLI auto-detection |
+| `formatter.py` | Human-readable firmware naming |
+| `theme.py` | Custom dark theme |
 
 ---
 
-## 🔐 File Integrity Verification (SHA-256 Checksums)
+## 🧬 Built With
 
-> 🛡️ **Verify your download:**  
-> These SHA-256 checksums let you confirm that your files are authentic and haven’t been modified.
-
-| File | Description | SHA-256 |
-|------|--------------|----------|
-| `AMN STM32 Flasher.exe` | Core standalone application | `EE811486F52A878FF453BF650C968989F583C549C09B101FE776E99A0DED81B0` |
-| `AMN STM32 Flasher Setup.exe` | Windows standalone application installer | `4C41FF92CB2E0F05768DC9E6B2E64F0C5876B05B436035D4BF39866D2DF16421` |
+- 🐍 **Python 3.14+** — lightweight, powerful, and portable foundation  
+- 🎨 **CustomTkinter** — for a clean, modern, dark-themed user interface  
+- 🪟 **Win32 API (ctypes)** — native integration for real Windows drag-and-drop support  
+- 💫 **Thread-Safe Architecture** — smooth, non-blocking progress updates and real-time feedback  
+- ⚙️ **ST-LINK CLI** *(external dependency, not bundled)* — official STM32 programming tool used **only if installed** on the system  
+  > 📎 *AMN STM32 Flasher does not include, modify, or distribute any STMicroelectronics software.*
 
 ---
 
-### 🧮 Verify the Hash
+## 🏆 Vision
 
-You can verify the file’s authenticity using **Windows PowerShell** (built into Windows 10 & 11).
+> *“Flashing firmware should be as simple as moving a file.”*
 
-1. Go to the folder where the files are saved.  
-2. **Hold Shift + Right-click** inside the folder background and select **“Open PowerShell window here”** or **"Open in Terminal"**.  
-3. Run the command for the file you want to check:
-4. Compare the result with the SHA-256 hash listed above.<br>
-   ✅ If they match — the file is safe.<br>
-   ⚠️ If not — re-download it from the official releases page.<br>
-   
-```
+**AMN STM32 Flasher** isn’t just another tool — it’s a statement.  
+It redefines how developers interact with embedded hardware:  
+simple, fast, and beautifully intuitive.
 
-Get-FileHash "AMN STM32 Flasher Setup.exe" -Algorithm SHA256
+For the first time, flashing firmware feels **human.**
 
-```
-
-```
-
-Get-FileHash "AMN STM32 Flasher.exe" -Algorithm SHA256
-
-```
-
-
-## Why Use This App?
-- Converts firmware into an installer-style package.
-- Simplifies STM32 firmware updates for beginners.
-- Automates repetitive flashing for professionals.
-- Makes STM32 projects easy to distribute and reproduce.
-  
 ---
 
-## Credits
-- **Aneesh Murali Nariyampully** – Original Author & Developer  
-- **CustomTkinter** – MIT License (by Tom Schimansky)  
-- **Python Software Foundation** – Python 3.x Standard Library  
-- **STMicroelectronics** – ST-LINK_CLI.exe (External Command-Line Tool)  
-- **Inno Setup Compiler** – Freeware by Jordan Russell, used to create the Windows installer.
+## 🙌 Credits
+
+- **Aneesh Murali Nariyampully** — Multidisciplinary Engineer, Creator, and Innovator  
+  *Bridging Electronics, Embedded Systems, Software, and AI — all under one vision.*  
+  *Original Author & Developer*  
+
+- **CustomTkinter** — Modern UI framework for Python  
+  Licensed under the **MIT License**, by *Tom Schimansky*  
+
+- **Python Software Foundation** — Python 3.x Standard Library  
+
+- **STMicroelectronics** — Developer of **ST-LINK_CLI.exe**  
+  *(External command-line utility used by AMN STM32 Flasher; not bundled or modified.)*  
+
+- **Inno Setup Compiler** — Freeware by *Jordan Russell*, used to create the Windows installer.
+
   
 ---
 
@@ -226,25 +242,43 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-- This software is provided “as is”, without warranty of any kind, express or implied.  
-- The developer is not responsible for any damage to hardware, firmware, or data that may result from use or misuse of this application.  
-- Users should verify that they are flashing the correct firmware and using compatible devices.  
-- `ST-LINK_CLI.exe` is the property of **STMicroelectronics** and must be used in accordance with their licensing terms.
+- This software is provided **“as is”**, without any warranty of any kind — express or implied.  
+- The developer assumes **no responsibility or liability** for any damage to hardware, firmware, or data resulting from the use or misuse of this application.  
+- Users are responsible for ensuring that they flash the **correct firmware** and use **compatible STM32 devices**.  
+- **`ST-LINK_CLI.exe`** is the property of **STMicroelectronics** and must be used in full compliance with their respective **software licensing terms**.
+
 
 ---
 
 ## 🌐 Project Information
-- **Author:** Aneesh Murali Nariyampully  
-- **Repository:** [https://github.com/aneeshmurali-n/AMN-STM32-Flasher](https://github.com/aneeshmurali-n/AMN-STM32-Flasher)  
-- **License:** [Apache 2.0](LICENSE)  
+
+- **Author:** **Aneesh Murali Nariyampully** — Multidisciplinary Engineer, Creator, and Innovator  
+  *Bridging Electronics, Embedded Systems, Software, and AI — all under one vision.*  
+  *Original Author & Developer*  
+
+- **Repository:** [github.com/aneeshmurali-n/AMN-STM32-Flasher](https://github.com/aneeshmurali-n/AMN-STM32-Flasher)  
+- **License:** [Apache License 2.0](LICENSE)  
 - **Notice:** [NOTICE.txt](NOTICE.txt)
 
 ---
 
-Made with ❤️ by Aneesh Murali Nariyampully  
-If this project helps you, please ⭐ it on GitHub!
+## ⭐ Support the Project
+
+If you believe in creating **simple tools that empower everyone**,  
+please consider giving this project a **⭐ star on GitHub** —  
+it helps others discover and support this innovation.
+
+> **AMN STM32 Flasher** — The world’s first firmware flasher that makes flashing *as simple as moving a file.*  
+> *Drag. Drop. Flash.*  
+> The future of firmware programming starts here.
+
+---
+
+Made with ❤️ by **Aneesh Murali Nariyampully**  
+If this project inspired you or made your workflow easier, please ⭐ it on GitHub!
+
 
 
   
