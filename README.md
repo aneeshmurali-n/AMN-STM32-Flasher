@@ -1,13 +1,17 @@
 # AMN STM32 Flasher  
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.12%2B-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.14%2B-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows_10/11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI_Dark_purple_green_by_AMN-CustomTkinter-9cf.svg)
 
-> 🧠 One-click firmware flashing & installer creation for STM32 microcontrollers — built for simplicity, power, and style.
+The world’s first Drop-to-Flash firmware flasher — built for simplicity, elegance, power, and style.
 
-**AMN STM32 Flasher** is a one-click **firmware flasher** and **installable firmware package creator** for STM32 microcontrollers.  
-It makes flashing STM32 devices **as easy as installing a regular application**.
+AMN STM32 Flasher is a revolutionary drag-and-drop firmware flashing tool for STM32 microcontrollers.
+It transforms the traditional, complex flashing process into a seamless, one-step experience —
+just drop your .bin file, and the flasher takes care of everything automatically.
+
+No terminals. No scripts. No confusion.
+Just drag, drop, done — and watch your STM32 come to life.
 
 https://github.com/user-attachments/assets/77e5941f-c59e-4696-adab-0e9a07a61817
 
