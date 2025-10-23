@@ -267,7 +267,7 @@ If you believe in creating **simple tools that empower everyone**,
 please consider giving this project a **⭐ star on GitHub** —  
 it helps others discover and support this innovation.
 
-> **AMN STM32 Flasher** — The world’s first firmware flasher that makes flashing *as simple as moving a file.*  
+> **AMN STM32 Flasher** — makes flashing as simple as moving a file.*  
 > *Drag. Drop. Flash.*  
 > The future of firmware programming starts here.
 
