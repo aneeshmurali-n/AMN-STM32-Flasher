@@ -274,7 +274,7 @@ class FlasherApp(ctk.CTk,AMNDropMixin):
                     firmware_path.unlink()
 
                 FIRMWARE_FILE = None
-                self.update_status("🧽  Firmware cleared from workspace.")
+                self.update_status("🧹  Firmware cleared from workspace.")
                 self.flash_btn.configure(text="Add Firmware", state="normal", command=self.browse_firmware)
             except Exception as e:
                 messagebox.showerror(
@@ -362,7 +362,7 @@ class FlasherApp(ctk.CTk,AMNDropMixin):
                     firmware_path.unlink()
 
                 FIRMWARE_FILE = None
-                self.update_status("🧽  Firmware cleared from workspace.")
+                self.update_status("🧹  Firmware cleared from workspace.")
                 self.flash_btn.configure(text="Add Firmware", state="normal", command=self.browse_firmware)
             except Exception as e:
                 messagebox.showerror(
@@ -611,7 +611,7 @@ class FlasherApp(ctk.CTk,AMNDropMixin):
             self.animate_progress(10, 35)
 
             # --- Full chip erase ---
-            self.update_status("🧽  Clearing device memory...")
+            self.update_status("🧹  Clearing device memory...")
             result_erase = subprocess.run(
                 [STLINK_CLI_PATH, "-c", "SWD", "-ME", "-Rst"],
                 stdout=subprocess.PIPE,
