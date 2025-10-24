@@ -1,6 +1,6 @@
 # AMN STM32 Flasher  
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.14%2B-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.13%2B-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI-Dark_Purple_Green_by_AMN-9cf.svg)
 
@@ -95,7 +95,7 @@ with live progress, instant feedback, and a clean, modern interface.
 
 ### 🔹 Requirements
 - 🪟 **Windows 10 / 11 (64-bit)**
-- 🐍 **Python 3.14+** *(only required for development or source builds)*
+- 🐍 **Python 3.13+** *(only required for development or source builds)*
 - 🔗 [**ST-LINK CLI**](https://www.st.com/en/development-tools/stsw-link004.html)  
   *(Included in the official ST-LINK Utility package from STMicroelectronics)*
 
@@ -197,7 +197,7 @@ DROP_FLASH — Stores the current state of the Drop Flash feature.
 
 ## 🧬 Built With
 
-- 🐍 **Python 3.14+** — lightweight, powerful, and portable foundation  
+- 🐍 **Python 3.13+** — lightweight, powerful, and portable foundation  
 - 🎨 **CustomTkinter** — for a clean, modern, dark-themed user interface  
 - 🪟 **Win32 API (ctypes)** — native integration for real Windows drag-and-drop support  
 - 💫 **Thread-Safe Architecture** — smooth, non-blocking progress updates and real-time feedback  
