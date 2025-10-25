@@ -1,4 +1,5 @@
 # AMN STM32 Flasher
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # binfinder.py — Locates firmware .bin files in the bin directory and return the first one found.
 # Note:
 #   This module is not currently used in the main application but is
@@ -48,4 +49,5 @@ def find_bin_file(bin_folder="bin", full_path=False):
 if __name__ == "__main__":
     print("Filename with extension:", find_bin_file(full_path=False))
     print("Full path:", find_bin_file(full_path=True))
+
 
