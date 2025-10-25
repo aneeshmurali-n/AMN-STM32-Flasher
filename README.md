@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 ## 🧠 How to Use
 
-1. **Connect** your STM32 board via ST-LINK.  
+1. **Connect** your STM32 board to your PC via ST-LINK.  
 2. **Open** AMN STM32 Flasher.  
 3. **Drop or select** your `.bin` firmware file.  
 4. **Click “Install”** — or do nothing if Instant Flash Mode is enabled.  
