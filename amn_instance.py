@@ -1,5 +1,6 @@
 # ----------------------------------------------------------------------
-# AMN STM32 Flasher v1.0.0 – The First Drag-and-Drop Firmware Flasher
+# AMN STM32 Flasher v1.0.0
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # ----------------------------------------------------------------------
 # Copyright 2025 Aneesh Murali Nariyampully
 # Licensed under the Apache License, Version 2.0
@@ -85,3 +86,4 @@ def release_single_instance(handle):
             kernel32.CloseHandle(handle)
     except Exception:
         pass
+
