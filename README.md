@@ -4,10 +4,8 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI-Dark_Purple_Green_by_AMN-9cf.svg)
 
-## 🏆 The World’s First Drag-and-Drop Firmware Flasher
-
-**No terminals. No setup. No stress.**  
-Just **drop your firmware** — and watch your STM32 flash itself.
+## 🏆 The world’s first flashing app that makes flashing as easy as moving a file.
+No terminals. No setup. Just drop — and done.
 
 Flashing STM32 firmware has never been this simple.  
 **AMN STM32 Flasher** replaces command lines and scripts with a single action:  
