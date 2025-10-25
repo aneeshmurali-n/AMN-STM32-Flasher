@@ -49,15 +49,20 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 | ✨ Feature | 💡 Description |
 |------------|----------------|
-| 🖱️ **Drag & Drop Flashing** | Drop your `.bin` firmware file directly into the window — AMN handles everything. |
-| ⚡ **Drop Flash Mode** | Enable instant auto-flash — your STM32 flashes the moment you drop a file. |
-| 🧠 **Smart ST-LINK Detection** | Automatically locates `ST-LINK_CLI.exe` across drives and caches its path. |
-| 🔒 **Firmware Protection (RDP)** | Enable or disable STM32 readout protection (RDP) with one click. |
-| 🎛️ **Smooth Live Feedback** | 60 FPS animated progress bar with live status updates at every stage. |
-| 🧩 **Single-Instance Engine** | Prevents multiple launches — focuses the current window intelligently. |
-| 🪟 **True Native Integration** | Built natively for Windows with authentic drag-and-drop behavior. |
-| 🎨 **Dark Modern Theme** | Custom **Dark Purple Green by AMN** theme for focus and visual comfort. |
-| ⌨️ **Keyboard Shortcuts** | Quickly access key functions without using the mouse | 
+| 🖱️ **Drop Flash** | Simply drop your `.bin` firmware file into the window — AMN detects your ST-LINK, erases memory, flashes, protect ,and verifies automatically. |
+| ⚡ **Drop Flash Mode** | Enable instant auto-flash — your STM32 begins flashing the moment you drop a file. Perfect for rapid testing or production workflows. |
+| 🧠 **Smart ST-LINK Detection** | Automatically detects your ST-LINK_CLI and remembers it — no setup, no configuration, it just works. |
+| 🔒 **Firmware Protection (RDP)** | Secure your firmware in a single click. Easily enable or disable STM32 Readout Protection (RDP1) directly from the interface. |
+| 🎛️ **Live Flash Feedback** | Real-time 60 FPS progress animations with detailed status for every stage — erase, program, verify, and protect. |
+| 🧩 **Single-Instance Engine** | Prevents multiple launches intelligently — if already open, the app brings the existing window into focus. |
+| 🪟 **True Native Integration** | Built natively for Windows 10 / 11 with authentic drag-and-drop behavior and seamless desktop performance. |
+| 🎨 **Dark Purple Green Theme** | Custom **Dark Purple Green by AMN** theme designed for comfort, focus, and modern aesthetics. |
+| ⌨️ **Keyboard-First Workflow** | Every action has a dedicated keyboard shortcut — flash, clear, toggle protection, or switch modes — all from your fingertips. |
+| 🧭 **Fully Interactive Interface** | Every widget is live and responsive — buttons, toggles, and panels all react instantly to input for a fluid, tactile experience. |
+
+
+> **Every widget responds. Every action has a shortcut.**  
+> AMN STM32 Flasher turns every interaction into a seamless experience.
 
  
 ---
