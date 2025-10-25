@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 | 🪟 **True Native Integration** | Built natively for Windows 10 / 11 with authentic drag-and-drop behavior and seamless desktop performance. |
 | 🎨 **Dark Purple Green Theme** | Custom **Dark Purple Green by AMN** theme designed for comfort, focus, and modern aesthetics. |
 | ⌨️ **Keyboard-First Workflow** | Every action has a dedicated keyboard shortcut — flash, clear, toggle protection, or switch modes — all from your fingertips. |
-| 🧭 **Fully Interactive Interface** | Every widget is live and responsive — buttons, toggles, and panels all react instantly to input for a fluid, tactile experience. |
+| 🧭 **Fully Interactive Interface** | Every widget is live and responsive and react instantly to input for a fluid, tactile experience. |
 
 
 > **Every widget responds. Every action has a shortcut.**  
