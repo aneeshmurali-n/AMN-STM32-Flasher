@@ -49,16 +49,17 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 | ✨ Feature | 💡 Description |
 |------------|----------------|
-| 🖱️ **Drop Flash** | Simply drop your `.bin` firmware file into the window — AMN detects your ST-LINK, erases memory, flashes, protect ,and verifies automatically. |
-| ⚡ **Drop Flash Mode** | Enable instant auto-flash — your STM32 begins flashing the moment you drop a file. Perfect for rapid testing or production workflows. |
-| 🧠 **Smart ST-LINK Detection** | Automatically detects your ST-LINK_CLI and remembers it — no setup, no configuration, it just works. |
-| 🔒 **Firmware Protection (RDP)** | Secure your firmware in a single click. Easily enable or disable STM32 Readout Protection (RDP1) directly from the interface. |
-| 🎛️ **Live Flash Feedback** | Real-time 60 FPS progress animations with detailed status for every stage — erase, program, verify, and protect. |
-| 🧩 **Single-Instance Engine** | Prevents multiple launches intelligently — if already open, the app brings the existing window into focus. |
-| 🪟 **True Native Integration** | Built natively for Windows 10 / 11 with authentic drag-and-drop behavior and seamless desktop performance. |
-| 🎨 **Dark Purple Green Theme** | Custom **Dark Purple Green by AMN** theme designed for comfort, focus, and modern aesthetics. |
-| ⌨️ **Keyboard-First Workflow** | Every action has a dedicated keyboard shortcut — flash, clear, toggle protection, or switch modes — all from your fingertips. |
-| 🧭 **Fully Interactive Interface** | Every widget is live and responsive and react instantly to input for a fluid, tactile experience. |
+| 🖱️ **Drop Flash** | Just drop your `.bin` file — AMN detects your ST-LINK, erases, flashes, protects, and verifies automatically. |
+| ⚡ **Instant Flash Mode** | Flash the moment you drop. No buttons. No setup. Just flow. |
+| 🧠 **Smart ST-LINK Detection** | Finds your ST-LINK CLI automatically and remembers it — no configuration, no effort, it just works. |
+| 🔒 **Firmware Protection** | Lock your code with one click. Enable or disable STM32 Readout Protection instantly. |
+| 🎚️ **Dynamic Action Buttons** | Buttons that think. Each adapts to your workflow — *Install* when ready, *Add Firmware* when clear. |
+| 🎛️ **Live Flash Feedback** | Smooth 60 FPS animation visualizes every step — erase, program, verify, protect. |
+| 🧩 **Single-Instance Engine** | Always one window. If it’s open, AMN simply focuses it — intelligently. |
+| 🪟 **Native Windows Integration** | Built on real Win32 APIs for true drag-and-drop behavior and desktop fluidity. |
+| 🎨 **Dark Purple Green Theme** | Designed by AMN for clarity, comfort, and focus — elegance in every pixel. |
+| ⌨️ **Keyboard-First Workflow** | Every action has a shortcut. Flash, clear, protect — all from your fingertips. |
+| 🧭 **Fully Interactive Interface** | Every widget responds. Every control reacts. Nothing is static. Everything feels alive. |
 
 
 > **Every widget responds. Every action has a shortcut.**  
