@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI-Dark_Purple_Green_by_AMN-9cf.svg)
 
-## 🏆 The world’s first flashing app that makes flashing as easy as moving a file.
+## The world’s first flashing app that makes flashing as easy as moving a file.
 No terminals. No setup. Just drop — and done.
 
 Flashing STM32 firmware has never been this simple.  
