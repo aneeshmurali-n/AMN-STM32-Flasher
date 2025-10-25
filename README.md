@@ -217,12 +217,12 @@ Advanced users can adjust this address in the configuration file.
   *Original Author & Developer*  
 
 - **CustomTkinter** — Modern UI framework for Python  
-  Licensed under the **MIT License**, by *Tom Schimansky*  
+  Licensed under the **MIT License** by *Tom Schimansky.*
 
-- **Python Software Foundation** — Python 3.x Standard Library  
+- **Python Software Foundation** — Developer of the **Python 3.x Standard Library.** 
 
-- **STMicroelectronics** — Developer of **ST-LINK_CLI.exe**  
-  *(External command-line utility used by AMN STM32 Flasher; not bundled or modified.)*  
+- **STMicroelectronics** — Creator of **ST-LINK_CLI.exe**  
+*(Official external command-line utility used by AMN STM32 Flasher. Not bundled, modified, or redistributed.)*
 
 - **Inno Setup Compiler** — Freeware by *Jordan Russell*, used to create the Windows installer.
 
