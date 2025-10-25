@@ -23,17 +23,24 @@ Everything just works  beautifully.
 
 > ### *“Flashing firmware should be as simple as moving a file.”*
 
-**AMN STM32 Flasher** isn’t just another tool — it’s a statement.  
-It redefines how developers interact with embedded hardware:  
-simple, fast, and beautifully intuitive.
+AMN STM32 Flasher redefines how developers interact with embedded hardware.  
+It’s fast, intuitive, and designed with the same care as the devices it programs.  
+For the first time, flashing feels human.
 
-For the first time, flashing firmware feels **human.**
 
 ---
 
+## 🧠 What Makes It Different
 
+Where others demand commands, AMN listens to intent.  
+It detects your tools, flashes your board, and visualizes the process — automatically.  
 
+Everything you touch in the app is alive:  
+Every button adapts, every widget responds, every action has a shortcut.  
 
+> It doesn’t just work — it understands what you want to do.
+
+---
 
 
 ## 🖼️ Experience It Yourself
@@ -69,6 +76,45 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 ---
 
 
+## 🧰 Installation
+
+### 🔹 Requirements
+- 🪟 **Windows 10 / 11 (64-bit)**
+- 🔗 [**ST-LINK Utility**](https://www.st.com/en/development-tools/stsw-link004.html)  
+  *(Includes `ST-LINK_CLI` and ST-LINK drivers — provided by STMicroelectronics.)*  
+  We recommend installing the **official ST-LINK Utility** for best performance.  
+  If you’ve already installed STM32 boards through the **Arduino IDE**, that’s also sufficient.
+
+### 🔹 Steps
+1. Download the latest version from the [📦 Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.  
+2. Run **`AMN STM32 Flasher Setup.exe`** and complete the installation.  
+3. Launch the app.  
+4. Drag and drop your `.bin` firmware file — flashing begins automatically!  
+
+> ⚡ No terminal. No manual setup. Just **drop and flash.**
+
+
+---
+
+
+## How to Use
+
+1. Connect your STM32 board via ST-LINK.   
+2. Open AMN STM32 Flasher. 
+3. Drop your firmware file or select it manually.  
+4. Install — or do nothing if Instant Flash Mode is enabled.  
+5. Done. Your firmware is installed, verified, and optionally protected.  
+
+<p align="center">
+  <img src="assets/screenready.png" width="30%">
+  <img src="assets/screenflash.png" width="30%">
+  <img src="assets/screenprotected.png" width="30%">
+</p>
+
+
+---
+
+
 ## ⌨️ Keyboard Shortcuts
 
 | Shortcut       | Action                                      |
@@ -79,86 +125,15 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 | `A` / `Enter`  | ➕ Add firmware file                        |
 | `P` / `E`      | 🔒 Enable / Disable Read Protection (RDP1)|
 
-
----
-
-## 🧠 Why It’s Different
-
-**AMN STM32 Flasher** was built for humans.
-
-It’s the first tool that turns flashing into a **single natural action** — just drop your `.bin` file.  
-No setup, no scripts, no console output — everything happens automatically.  
-
-It detects your ST-LINK, erases, flashes, verifies, and protects your firmware —  
-with live progress, instant feedback, and a clean, modern interface.  
-
-> ⚡ **Where others demand commands, AMN STM32 Flasher just works.**
-
----
-
-
-## 🧰 Installation
-
-### 🔹 Requirements
-- 🪟 **Windows 10 / 11 (64-bit)**
-- 🐍 **Python 3.13+** *(only required for development or source builds)*
-- 🔗 [**ST-LINK CLI**](https://www.st.com/en/development-tools/stsw-link004.html)  
-  *(Included in the official ST-LINK Utility package from STMicroelectronics)*
-
-### 🔹 Steps
-1. Download the latest version from the [📦 Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.  
-2. Run **`AMN STM32 Flasher Setup.exe`** and complete the installation.  
-3. Launch the app.  
-4. Drag and drop your `.bin` firmware file — flashing begins automatically!  
-
-> ⚡ No terminal. No manual setup. Just **drop and flash.**
-
----
-
-
-## ⚠️ Important Notes
-
-- **AMN STM32 Flasher** does not include or distribute `ST-LINK_CLI.exe` or any STMicroelectronics software.  
-- The application only **communicates externally** with `ST-LINK_CLI.exe`, executing standard command-line operations securely and transparently.  
-- Users must install the official **ST-LINK Utility** separately and ensure compliance with **STMicroelectronics’ licensing terms**.  
-- For best results, keep the ST-LINK Utility installed in its default directory
-- 💡 **No worries:** AMN STM32 Flasher automatically detects the correct ST-LINK path — no manual setup required.
-
-
----
-
-## 💡 How It Works
-
-1. **Launch** the app  
-2. **Drop or Select** your `.bin` firmware  
-3. **Click “Install”** or Do nothing — if Drop Flash is enabled, it starts instantly.  
-4. **Done.**  
-   Your firmware is installed, verified, and optionally protected.
-
-<p align="center">
-  <img src="assets/screen_ready.png" width="30%">
-  <img src="assets/screen_flash.png" width="30%">
-  <img src="assets/screen_protected.png" width="30%">
-</p>
-
----
-
-### ✅ Supported STM32 MCU Families
-
-**AMN STM32 Flasher** supports all STM32 microcontrollers compatible with **ST-LINK CLI** over **SWD (Serial Wire Debug)**.  
-By default, it operates at memory address **0x08000000** — the standard flash region for STM32 devices.  
-  
-Advanced users can easily change the **flash start address** in the configuration file  
-(`Documents/AMNSTM32Flasher/settings.json`) to match custom memory layouts or bootloader offsets.
+> Every action is one keystroke away.
 
 
 ---
 
 
+## ⚙️ Configuration
 
-## ⚙️ Configuration File (`settings.json`)
-
-The configuration file is automatically created in:  
+The configuration file is automatically created at:  
 `Documents/AMNSTM32Flasher/settings.json`
 
 You can edit this file to adjust flashing behavior and preferences.
@@ -172,17 +147,23 @@ You can edit this file to adjust flashing behavior and preferences.
 ```
 💡 Parameters
 
-FLASH_START_ADDR — Defines the starting memory address for firmware flashing.
-Default: 0x08000000 (standard for most STM32 MCUs).
+`FLASH_START_ADDR` — Start address for firmware flashing (default 0x08000000, standard for most STM32 MCUs).
 Only change this if you are flashing to a custom memory region.
 
-DROP_FLASH — Stores the current state of the Drop Flash feature.
+`DROP_FLASH` — Controls Instant Flash Mode (`ENABLED` / `DISABLED`)
 
-"ENABLED" → Automatically flashes when a .bin file is dropped into the window.
+> The app manages this file automatically — manual edits are rarely needed.
 
-"DISABLED" → File drop still replaces the previous firmware, but flashing occurs only when you press Install or use shortcuts.
 
-⚙️ The app manages this file automatically — manual edits are optional and rarely needed.
+---
+
+
+### ✅ Compatibility
+
+Supports all STM32 microcontrollers compatible with ST-LINK CLI over SWD.  
+Default flash region: `0x08000000`.  
+Advanced users can adjust this address in the configuration file.
+
 
 ---
 
@@ -201,16 +182,31 @@ DROP_FLASH — Stores the current state of the Drop Flash feature.
 
 ---
 
+
 ## 🧬 Built With
 
 - 🐍 **Python 3.13+** — lightweight, powerful, and portable foundation  
-- 🎨 **CustomTkinter** — for a clean, modern, dark-themed user interface  
+- 🎨 **CustomTkinter** — for a clean and modern dark-themed UI 
 - 🪟 **Win32 API (ctypes)** — native integration for real Windows drag-and-drop support  
-- 💫 **Thread-Safe Architecture** — smooth, non-blocking progress updates and real-time feedback  
-- ⚙️ **ST-LINK CLI** *(external dependency, not bundled)* — official STM32 programming tool used **only if installed** on the system  
+- 💫 **Thread-Safe Architecture** — smooth, real-time feedback    
+- ⚙️ **ST-LINK CLI**  — official STM32 programming tool (not bundled) 
   > 📎 *AMN STM32 Flasher does not include, modify, or distribute any STMicroelectronics software.*
 
+
 ---
+
+
+## ⚠️ Important Notes
+
+- **AMN STM32 Flasher** does not include or distribute `ST-LINK_CLI.exe` or any STMicroelectronics software.  
+- The app communicates **securely and externally** with `ST-LINK_CLI.exe`, performing standard flash operations without modification.  
+- Please install the **official STMicroelectronics ST-LINK Utility** to ensure compatibility and proper licensing.  
+- For best results, keep the ST-LINK Utility in its default installation directory.  
+- 💡 **No worries:** AMN STM32 Flasher automatically detects your ST-LINK path — no manual setup required.
+
+
+---
+
 
 ## 🙌 Credits
 
@@ -231,6 +227,7 @@ DROP_FLASH — Stores the current state of the Drop Flash feature.
   
 ---
 
+
 ## 📄 License
 
 © 2025 Aneesh Murali Nariyampully  
@@ -243,7 +240,9 @@ under the License is distributed on an **"AS IS" BASIS**,
 **without warranties or conditions of any kind**, either express or implied.  
 See the [LICENSE](LICENSE) file for full terms.
 
+
 ---
+
 
 ## ⚠️ Disclaimer
 
@@ -255,6 +254,7 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
+
 ## 🌐 Project Information
 
 - **Author:** **Aneesh Murali Nariyampully** — Multidisciplinary Engineer, Creator, and Innovator  
@@ -265,7 +265,9 @@ See the [LICENSE](LICENSE) file for full terms.
 - **License:** [Apache License 2.0](LICENSE)  
 - **Notice:** [NOTICE.txt](NOTICE.txt)
 
+
 ---
+
 
 ## ⭐ Support the Project
 
@@ -277,7 +279,21 @@ it helps others discover and support this innovation.
 > *Drag. Drop. Flash.*  
 > The future of firmware programming starts here.
 
+
 ---
+
+
+## The Philosophy
+
+> “Flashing firmware should feel effortless.”  
+> AMN STM32 Flasher turns a technical task into a natural gesture.  
+
+Drag. Drop. Flash.  
+The future of firmware programming starts here.
+
+
+---
+
 
 Made with ❤️ and precision by **Aneesh Murali Nariyampully**  
 If this project inspired you or made your workflow easier, please ⭐ it on GitHub.
