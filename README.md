@@ -69,7 +69,8 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 | 🧭 **Fully Interactive Interface** | Every widget responds. Every control reacts. Nothing is static. Everything feels alive. |
 
 
-> **Every widget responds. Every action has a shortcut.**  
+> **Every widget responds. Every action has a shortcut.**
+> 
 > AMN STM32 Flasher turns every interaction into a seamless experience.
 
  
