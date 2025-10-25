@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 > ✨ Everything happens automatically — simply connect, drop, and flash.
 > 
-> ⚡ No terminal. No manual setup. Just **drop and flash.**
+> ⚡ No terminal. No manual setup. Just a **file drop**
 
 <p align="center">
   <img src="assets/screenready.png" width="30%">
