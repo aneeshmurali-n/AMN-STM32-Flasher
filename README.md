@@ -103,7 +103,7 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 4. **Click “Install”** — or do nothing if Instant Flash Mode is enabled.  
 5. **Done.** Your firmware is installed, verified, and optionally protected.  
 
-> Everything happens automatically — simply connect, drop, and flash.
+> ✨ Everything happens automatically — simply connect, drop, and flash.
 > 
 > ⚡ No terminal. No manual setup. Just **drop and flash.**
 
