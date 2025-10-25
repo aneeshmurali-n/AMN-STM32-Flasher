@@ -1,5 +1,6 @@
 # ----------------------------------------------------------------------
-# AMN STM32 Flasher v1.0.0 – The First Drag-and-Drop Firmware Flasher
+# AMN STM32 Flasher v1.0.0
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # ----------------------------------------------------------------------
 # Copyright 2025 Aneesh Murali Nariyampully – Apache 2.0 License
 # ----------------------------------------------------------------------
@@ -113,3 +114,4 @@ class AMNDropMixin:
         # Register subclass safely
         if not SetWindowSubclass(hwnd, self._amn_subclass_proc, 1001, 0):
             raise ctypes.WinError(ctypes.get_last_error())
+
