@@ -56,13 +56,13 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 
 | ✨ Feature | 💡 Description |
 |------------|----------------|
-| 🖱️ **Drop Flash** | Just drop your `.bin` file — AMN detects your ST-LINK, erases, flashes, protects, and verifies automatically. |
+| 🖱️ **Drop Flash** | Just drop your `.bin` file — AMN Flasher detects your ST-LINK, erases, flashes, protects, and verifies automatically. |
 | ⚡ **Instant Flash Mode** | Flash the moment you drop. No buttons. No setup. Just flow. |
 | 🧠 **Smart ST-LINK Detection** | Finds your ST-LINK CLI automatically and remembers it — no configuration, no effort, it just works. |
 | 🔒 **Firmware Protection** | Lock your code with one click. Enable or disable STM32 Readout Protection instantly. |
 | 🎚️ **Dynamic Action Buttons** | Buttons that think. Each adapts to your workflow — *Install* when ready, *Add Firmware* when clear. |
 | 🎛️ **Live Flash Feedback** | Smooth 60 FPS animation visualizes every step — erase, program, verify, protect. |
-| 🧩 **Single-Instance Engine** | Always one window. If it’s open, AMN simply focuses it — intelligently. |
+| 🧩 **Single-Instance Engine** | Always one window. If it’s open, AMN Flasher simply focuses it — intelligently. |
 | 🪟 **Native Windows Integration** | Built on real Win32 APIs for true drag-and-drop behavior and desktop fluidity. |
 | 🎨 **Dark Purple Green Theme** | Designed by AMN for clarity, comfort, and focus — elegance in every pixel. |
 | ⌨️ **Keyboard-First Workflow** | Every action has a shortcut. Flash, clear, protect — all from your fingertips. |
@@ -83,27 +83,28 @@ https://github.com/user-attachments/assets/b04cfcef-0064-489c-aa19-83244bffc553
 - 🔗 [**ST-LINK Utility**](https://www.st.com/en/development-tools/stsw-link004.html)  
   *(Includes `ST-LINK_CLI` and ST-LINK drivers — provided by STMicroelectronics.)*  
   We recommend installing the **official ST-LINK Utility** for best performance.  
-  If you’ve already installed STM32 boards through the **Arduino IDE**, that’s also sufficient.
+  If you’ve already installed STM32 board support in the **Arduino IDE**, that’s also sufficient.
 
 ### 🔹 Steps
 1. Download the latest version from the [📦 Releases](https://github.com/aneeshmurali-n/AMN-STM32-Flasher/releases) page.  
 2. Run **`AMN STM32 Flasher Setup.exe`** and complete the installation.  
-3. Launch the app.  
-4. Drag and drop your `.bin` firmware file — flashing begins automatically!  
-
-> ⚡ No terminal. No manual setup. Just **drop and flash.**
+3. Launch **AMN STM32 Flasher**.  
 
 
 ---
 
 
-## How to Use
+## 🧠 How to Use
 
-1. Connect your STM32 board via ST-LINK.   
-2. Open AMN STM32 Flasher. 
-3. Drop your firmware file or select it manually.  
-4. Install — or do nothing if Instant Flash Mode is enabled.  
-5. Done. Your firmware is installed, verified, and optionally protected.  
+1. **Connect** your STM32 board via ST-LINK.  
+2. **Open** AMN STM32 Flasher.  
+3. **Drop or select** your `.bin` firmware file.  
+4. **Click “Install”** — or do nothing if Instant Flash Mode is enabled.  
+5. **Done.** Your firmware is installed, verified, and optionally protected.  
+
+> Everything happens automatically — simply connect, drop, and flash.
+> 
+> ⚡ No terminal. No manual setup. Just **drop and flash.**
 
 <p align="center">
   <img src="assets/screenready.png" width="30%">
