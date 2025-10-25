@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
 # AMN STM32 Flasher v1.0.0
-# The First Drag-and-Drop Firmware Flasher
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # ----------------------------------------------------------------------
 # Copyright 2025 Aneesh Murali Nariyampully
 #
@@ -671,4 +671,5 @@ if __name__ == "__main__":
         app.mainloop()
     finally:
         # Always release the instance lock on exit
+
         release_single_instance(handle)
