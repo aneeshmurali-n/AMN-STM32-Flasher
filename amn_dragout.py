@@ -1,5 +1,6 @@
 # ----------------------------------------------------------------------
-# AMN STM32 Flasher v1.0.0 – The First Drag-and-Drop Firmware Flasher
+# AMN STM32 Flasher v1.0.0
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # ----------------------------------------------------------------------
 # Copyright 2025 Aneesh Murali Nariyampully – Apache 2.0
 # ----------------------------------------------------------------------
@@ -68,3 +69,4 @@ def enable_amn_drag_out(widget, callback):
 
     widget.bind("<ButtonPress-1>", on_press, add="+")
     widget.bind("<ButtonRelease-1>", on_release, add="+")
+
