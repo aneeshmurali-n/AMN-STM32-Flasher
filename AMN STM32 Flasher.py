@@ -1,4 +1,5 @@
-# AMN STM32 Flasher - The world’s first flashing app that makes flashing as easy as moving a file.
+# AMN STM32 Flasher
+# The world’s first flashing app that makes flashing as easy as moving a file.
 # Copyright 2025 Aneesh Murali Nariyampully
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -455,4 +456,5 @@ class FlasherApp(ctk.CTk):
 if __name__ == "__main__":
     app = FlasherApp()
     app.mainloop()
+
 
