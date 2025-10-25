@@ -32,7 +32,7 @@ For the first time, flashing feels human.
 
 ## 🧠 What Makes It Different
 
-Where others demand commands, AMN listens to intent.  
+Where others demand commands, AMN Flasher listens to intent.  
 It detects your tools, flashes your board, and visualizes the process — automatically.  
 
 Everything you touch in the app is alive:  
