@@ -43,7 +43,7 @@ Every button adapts, every widget responds, every action has a shortcut.
 
 ## 🖼️ Experience It Yourself
 
-<video src="teaser/Flashing Firmware Should Be as Simple as Moving a File — AMN STM32 Flasher Teaser.mp4" controls width="640"></video>
+<video src="demo/Flashing Firmware Should Be as Simple as Moving a File — AMN STM32 Flasher Teaser.mp4" controls width="640"></video>
 
 > **AMN STM32 Flasher**  
 > Flashing firmware is as simple as moving a file — and it’s never looked this good.
