@@ -45,6 +45,13 @@ Every button adapts, every widget responds, every action has a shortcut.
 
 
 
+
+https://github.com/user-attachments/assets/d1410449-6070-4b46-9c99-8fda1862d6a8
+
+
+
+
+
 > **AMN STM32 Flasher**  
 > Flashing firmware is as simple as moving a file — and it’s never looked this good.
 
