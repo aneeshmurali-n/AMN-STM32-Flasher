@@ -43,13 +43,8 @@ Every button adapts, every widget responds, every action has a shortcut.
 
 ## 🖼️ Experience It Yourself
 
-
-
-
-https://github.com/user-attachments/assets/d1410449-6070-4b46-9c99-8fda1862d6a8
-
-
-
+<video src="https://github.com/user-attachments/assets/d1410449-6070-4b46-9c99-8fda1862d6a8" controls width="640"></video>
+<video src="https://github.com/user-attachments/assets/d1410449-6070-4b46-9c99-8fda1862d6a8" controls autoplay width="640"></video>
 
 
 > **AMN STM32 Flasher**  
