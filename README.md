@@ -101,7 +101,7 @@ https://github.com/user-attachments/assets/d1410449-6070-4b46-9c99-8fda1862d6a8
 1. **Connect** your STM32 board to your PC via ST-LINK. <br><img src="https://github.com/user-attachments/assets/a8f0b54b-7528-47a7-b5be-76b1df36f363"  width=100%><br>
 2. **Open** AMN STM32 Flasher. <br> <img src="https://github.com/user-attachments/assets/d7261a38-64cb-4dfc-afab-36d5febc69d6" width=100%> <br>
 3. **Drop or select** your `.bin` firmware file.  <br> <img src="https://github.com/user-attachments/assets/b305e860-ac6f-495f-872f-67739d9a49b6" width=100%>  <br>
-4. **Click “Install”** — or do nothing if Instant Flash Mode is enabled.  <br> <img  src="https://github.com/user-attachments/assets/07a2c6a7-20e9-4119-864a-478bc3c8ca7f" width=100%>  <br>
+4. **Click “Install”** — **or do nothing** if Instant Flash Mode is enabled.  <br> <img  src="https://github.com/user-attachments/assets/07a2c6a7-20e9-4119-864a-478bc3c8ca7f" width=100%>  <br>
 5. **Done.** Your firmware is installed, verified, and optionally protected.  <br> <img src="https://github.com/user-attachments/assets/56165bdf-e8cd-4e22-ac78-3aec1aa1b57f" width=100%>  <br>
 
 > ✨ Everything happens automatically — simply connect, drop, and flash.
